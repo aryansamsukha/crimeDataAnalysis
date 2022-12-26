@@ -1,0 +1,876 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20223.22.1108.0821                               -->
+<workbook original-version='18.1' source-build='2022.3.1 (20223.22.1108.0821)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='20_Victims_of_rape' inline='true' name='federated.1bsjbsj1wisohz1dzejq90jlkuq9' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='20_Victims_of_rape' name='textscan.0vciaee0z6csq21h4ugsn1mz3dsp'>
+            <connection class='textscan' directory='C:/Users/aryan/Desktop/archive2' filename='20_Victims_of_rape.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0vciaee0z6csq21h4ugsn1mz3dsp' name='20_Victims_of_rape.csv' table='[20_Victims_of_rape#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='Area_Name' ordinal='0' />
+            <column datatype='integer' name='Year' ordinal='1' />
+            <column datatype='string' name='Subgroup' ordinal='2' />
+            <column datatype='integer' name='Rape_Cases_Reported' ordinal='3' />
+            <column datatype='integer' name='Victims_Above_50_Yrs' ordinal='4' />
+            <column datatype='integer' name='Victims_Between_10-14_Yrs' ordinal='5' />
+            <column datatype='integer' name='Victims_Between_14-18_Yrs' ordinal='6' />
+            <column datatype='integer' name='Victims_Between_18-30_Yrs' ordinal='7' />
+            <column datatype='integer' name='Victims_Between_30-50_Yrs' ordinal='8' />
+            <column datatype='integer' name='Victims_of_Rape_Total' ordinal='9' />
+            <column datatype='integer' name='Victims_Upto_10_Yrs' ordinal='10' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0vciaee0z6csq21h4ugsn1mz3dsp' name='20_Victims_of_rape.csv' table='[20_Victims_of_rape#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='Area_Name' ordinal='0' />
+            <column datatype='integer' name='Year' ordinal='1' />
+            <column datatype='string' name='Subgroup' ordinal='2' />
+            <column datatype='integer' name='Rape_Cases_Reported' ordinal='3' />
+            <column datatype='integer' name='Victims_Above_50_Yrs' ordinal='4' />
+            <column datatype='integer' name='Victims_Between_10-14_Yrs' ordinal='5' />
+            <column datatype='integer' name='Victims_Between_14-18_Yrs' ordinal='6' />
+            <column datatype='integer' name='Victims_Between_18-30_Yrs' ordinal='7' />
+            <column datatype='integer' name='Victims_Between_30-50_Yrs' ordinal='8' />
+            <column datatype='integer' name='Victims_of_Rape_Total' ordinal='9' />
+            <column datatype='integer' name='Victims_Upto_10_Yrs' ordinal='10' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[20_Victims_of_rape.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₹&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Area_Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Area_Name]</local-name>
+            <parent-name>[20_Victims_of_rape.csv]</parent-name>
+            <remote-alias>Area_Name</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[20_Victims_of_rape.csv_704DF415F0B74FEABD4101D91838DDA4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[20_Victims_of_rape.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[20_Victims_of_rape.csv_704DF415F0B74FEABD4101D91838DDA4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Subgroup</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Subgroup]</local-name>
+            <parent-name>[20_Victims_of_rape.csv]</parent-name>
+            <remote-alias>Subgroup</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[20_Victims_of_rape.csv_704DF415F0B74FEABD4101D91838DDA4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rape_Cases_Reported</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Rape_Cases_Reported]</local-name>
+            <parent-name>[20_Victims_of_rape.csv]</parent-name>
+            <remote-alias>Rape_Cases_Reported</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[20_Victims_of_rape.csv_704DF415F0B74FEABD4101D91838DDA4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Victims_Above_50_Yrs</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Victims_Above_50_Yrs]</local-name>
+            <parent-name>[20_Victims_of_rape.csv]</parent-name>
+            <remote-alias>Victims_Above_50_Yrs</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[20_Victims_of_rape.csv_704DF415F0B74FEABD4101D91838DDA4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Victims_Between_10-14_Yrs</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Victims_Between_10-14_Yrs]</local-name>
+            <parent-name>[20_Victims_of_rape.csv]</parent-name>
+            <remote-alias>Victims_Between_10-14_Yrs</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[20_Victims_of_rape.csv_704DF415F0B74FEABD4101D91838DDA4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Victims_Between_14-18_Yrs</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Victims_Between_14-18_Yrs]</local-name>
+            <parent-name>[20_Victims_of_rape.csv]</parent-name>
+            <remote-alias>Victims_Between_14-18_Yrs</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[20_Victims_of_rape.csv_704DF415F0B74FEABD4101D91838DDA4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Victims_Between_18-30_Yrs</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Victims_Between_18-30_Yrs]</local-name>
+            <parent-name>[20_Victims_of_rape.csv]</parent-name>
+            <remote-alias>Victims_Between_18-30_Yrs</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[20_Victims_of_rape.csv_704DF415F0B74FEABD4101D91838DDA4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Victims_Between_30-50_Yrs</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Victims_Between_30-50_Yrs]</local-name>
+            <parent-name>[20_Victims_of_rape.csv]</parent-name>
+            <remote-alias>Victims_Between_30-50_Yrs</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[20_Victims_of_rape.csv_704DF415F0B74FEABD4101D91838DDA4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Victims_of_Rape_Total</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Victims_of_Rape_Total]</local-name>
+            <parent-name>[20_Victims_of_rape.csv]</parent-name>
+            <remote-alias>Victims_of_Rape_Total</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[20_Victims_of_rape.csv_704DF415F0B74FEABD4101D91838DDA4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Victims_Upto_10_Yrs</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Victims_Upto_10_Yrs]</local-name>
+            <parent-name>[20_Victims_of_rape.csv]</parent-name>
+            <remote-alias>Victims_Upto_10_Yrs</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[20_Victims_of_rape.csv_704DF415F0B74FEABD4101D91838DDA4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Area Name' datatype='string' name='[Area_Name]' role='dimension' type='nominal' />
+      <column caption='percentTotalof50&gt;' datatype='real' name='[Calculation_1299570012595646467]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='(SUM([Victims_Above_50_Yrs]) / SUM([Victims_of_Rape_Total]))' />
+      </column>
+      <column caption='percentTotalof10-14' datatype='real' name='[Calculation_1299570012609277956]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([Victims_Between_10-14_Yrs])/SUM([Victims_of_Rape_Total])' />
+      </column>
+      <column caption='percentTotalof14-18' datatype='real' name='[Calculation_1299570012609531909]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([Victims_Between_14-18_Yrs])/ SUM([Victims_of_Rape_Total])' />
+      </column>
+      <column caption='percentTotalof30-50' datatype='real' name='[Calculation_1299570012609724422]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([Victims_Between_30-50_Yrs]) / SUM([Victims_of_Rape_Total])' />
+      </column>
+      <column caption='percentTotalof10&lt;' datatype='real' name='[Calculation_1299570012609986567]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([Victims_Upto_10_Yrs]) / SUM([Victims_of_Rape_Total])' />
+      </column>
+      <column caption='Rape Cases Reported' datatype='integer' name='[Rape_Cases_Reported]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Subgroup]' role='dimension' type='nominal' />
+      <column caption='Victims Above 50 Yrs' datatype='integer' name='[Victims_Above_50_Yrs]' role='measure' type='quantitative' />
+      <column caption='Victims Between 10-14 Yrs' datatype='integer' name='[Victims_Between_10-14_Yrs]' role='measure' type='quantitative' />
+      <column caption='Victims Between 14-18 Yrs' datatype='integer' name='[Victims_Between_14-18_Yrs]' role='measure' type='quantitative' />
+      <column caption='Victims Between 18-30 Yrs' datatype='integer' name='[Victims_Between_18-30_Yrs]' role='measure' type='quantitative' />
+      <column caption='Victims Between 30-50 Yrs' datatype='integer' name='[Victims_Between_30-50_Yrs]' role='measure' type='quantitative' />
+      <column caption='Victims Upto 10 Yrs' datatype='integer' name='[Victims_Upto_10_Yrs]' role='measure' type='quantitative' />
+      <column caption='Victims of Rape Total' datatype='integer' name='[Victims_of_Rape_Total]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='20_Victims_of_rape.csv' datatype='table' name='[__tableau_internal_object_id__].[20_Victims_of_rape.csv_704DF415F0B74FEABD4101D91838DDA4]' role='measure' type='quantitative' />
+      <column-instance column='[Subgroup]' derivation='None' name='[none:Subgroup:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Victims_Above_50_Yrs]' derivation='None' name='[none:Victims_Above_50_Yrs:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[Victims_Above_50_Yrs]' derivation='Sum' name='[pcto:sum:Victims_Above_50_Yrs:qk:3]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Columns' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[Victims_Above_50_Yrs]' derivation='Sum' name='[pcto:sum:Victims_Above_50_Yrs:qk]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Rows' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[Victims_Between_10-14_Yrs]' derivation='Sum' name='[pcto:sum:Victims_Between_10-14_Yrs:qk:2]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Rows' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[Victims_Between_10-14_Yrs]' derivation='Sum' name='[pcto:sum:Victims_Between_10-14_Yrs:qk]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Columns' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[Victims_Between_14-18_Yrs]' derivation='Sum' name='[pcto:sum:Victims_Between_14-18_Yrs:qk:2]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Rows' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[Victims_Between_14-18_Yrs]' derivation='Sum' name='[pcto:sum:Victims_Between_14-18_Yrs:qk]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Columns' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[Victims_Between_30-50_Yrs]' derivation='Sum' name='[pcto:sum:Victims_Between_30-50_Yrs:qk:2]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Rows' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[Victims_Between_30-50_Yrs]' derivation='Sum' name='[pcto:sum:Victims_Between_30-50_Yrs:qk]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Columns' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[Victims_Upto_10_Yrs]' derivation='Sum' name='[pcto:sum:Victims_Upto_10_Yrs:qk:2]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Rows' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[Victims_Upto_10_Yrs]' derivation='Sum' name='[pcto:sum:Victims_Upto_10_Yrs:qk]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Columns' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[Victims_Above_50_Yrs]' derivation='Sum' name='[sum:Victims_Above_50_Yrs:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Victims_Between_10-14_Yrs]' derivation='Sum' name='[sum:Victims_Between_10-14_Yrs:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Victims_Between_14-18_Yrs]' derivation='Sum' name='[sum:Victims_Between_14-18_Yrs:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Victims_Between_18-30_Yrs]' derivation='Sum' name='[sum:Victims_Between_18-30_Yrs:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Victims_Between_30-50_Yrs]' derivation='Sum' name='[sum:Victims_Between_30-50_Yrs:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Victims_Upto_10_Yrs]' derivation='Sum' name='[sum:Victims_Upto_10_Yrs:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Victims_of_Rape_Total]' derivation='Sum' name='[sum:Victims_of_Rape_Total:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1299570012595646467]' derivation='User' name='[usr:Calculation_1299570012595646467:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1299570012609277956]' derivation='User' name='[usr:Calculation_1299570012609277956:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1299570012609531909]' derivation='User' name='[usr:Calculation_1299570012609531909:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1299570012609724422]' derivation='User' name='[usr:Calculation_1299570012609724422:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1299570012609986567]' derivation='User' name='[usr:Calculation_1299570012609986567:qk]' pivot='key' type='quantitative' />
+      <group caption='Action (Victims Above 50 Yrs)' hidden='true' name='[Action (Victims Above 50 Yrs)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:Victims_Above_50_Yrs:ok]' />
+        </groupfilter>
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Subgroup:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Victims of Incest Rape&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Total Rape Victims&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Victims of Other Rape&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1bsjbsj1wisohz1dzejq90jlkuq9].[pcto:sum:Victims_Above_50_Yrs:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1bsjbsj1wisohz1dzejq90jlkuq9].[sum:Victims_Above_50_Yrs:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1bsjbsj1wisohz1dzejq90jlkuq9].[usr:Calculation_1299570012595646467:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1bsjbsj1wisohz1dzejq90jlkuq9].[pcto:sum:Victims_Above_50_Yrs:qk:3]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1bsjbsj1wisohz1dzejq90jlkuq9].[pcto:sum:Victims_Upto_10_Yrs:qk:2]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1bsjbsj1wisohz1dzejq90jlkuq9].[sum:Victims_Between_30-50_Yrs:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1bsjbsj1wisohz1dzejq90jlkuq9].[usr:Calculation_1299570012609724422:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.1bsjbsj1wisohz1dzejq90jlkuq9].[pcto:sum:Victims_Between_30-50_Yrs:qk:2]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.1bsjbsj1wisohz1dzejq90jlkuq9].[pcto:sum:Victims_Between_30-50_Yrs:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.1bsjbsj1wisohz1dzejq90jlkuq9].[sum:Victims_Between_18-30_Yrs:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.1bsjbsj1wisohz1dzejq90jlkuq9].[usr:Calculation_1299570012609531909:qk]&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;[federated.1bsjbsj1wisohz1dzejq90jlkuq9].[pcto:sum:Victims_Between_10-14_Yrs:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.1bsjbsj1wisohz1dzejq90jlkuq9].[sum:Victims_Between_14-18_Yrs:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.1bsjbsj1wisohz1dzejq90jlkuq9].[pcto:sum:Victims_Between_14-18_Yrs:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1bsjbsj1wisohz1dzejq90jlkuq9].[pcto:sum:Victims_Between_14-18_Yrs:qk:2]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1bsjbsj1wisohz1dzejq90jlkuq9].[sum:Victims_Between_10-14_Yrs:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1bsjbsj1wisohz1dzejq90jlkuq9].[usr:Calculation_1299570012609986567:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.1bsjbsj1wisohz1dzejq90jlkuq9].[sum:Victims_Upto_10_Yrs:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1bsjbsj1wisohz1dzejq90jlkuq9].[pcto:sum:Victims_Between_10-14_Yrs:qk:2]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1bsjbsj1wisohz1dzejq90jlkuq9].[sum:Victims_of_Rape_Total:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1bsjbsj1wisohz1dzejq90jlkuq9].[usr:Calculation_1299570012609277956:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;[federated.1bsjbsj1wisohz1dzejq90jlkuq9].[pcto:sum:Victims_Upto_10_Yrs:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='20_Victims_of_rape.csv' id='20_Victims_of_rape.csv_704DF415F0B74FEABD4101D91838DDA4'>
+            <properties context=''>
+              <relation connection='textscan.0vciaee0z6csq21h4ugsn1mz3dsp' name='20_Victims_of_rape.csv' table='[20_Victims_of_rape#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                  <column datatype='string' name='Area_Name' ordinal='0' />
+                  <column datatype='integer' name='Year' ordinal='1' />
+                  <column datatype='string' name='Subgroup' ordinal='2' />
+                  <column datatype='integer' name='Rape_Cases_Reported' ordinal='3' />
+                  <column datatype='integer' name='Victims_Above_50_Yrs' ordinal='4' />
+                  <column datatype='integer' name='Victims_Between_10-14_Yrs' ordinal='5' />
+                  <column datatype='integer' name='Victims_Between_14-18_Yrs' ordinal='6' />
+                  <column datatype='integer' name='Victims_Between_18-30_Yrs' ordinal='7' />
+                  <column datatype='integer' name='Victims_Between_30-50_Yrs' ordinal='8' />
+                  <column datatype='integer' name='Victims_of_Rape_Total' ordinal='9' />
+                  <column datatype='integer' name='Victims_Upto_10_Yrs' ordinal='10' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='20_Victims_of_rape' name='federated.1bsjbsj1wisohz1dzejq90jlkuq9' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1bsjbsj1wisohz1dzejq90jlkuq9'>
+            <column caption='Area Name' datatype='string' name='[Area_Name]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Subgroup]' role='dimension' type='nominal' />
+            <column caption='Victims of Rape Total' datatype='integer' name='[Victims_of_Rape_Total]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Area_Name]' derivation='None' name='[none:Area_Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Subgroup]' derivation='None' name='[none:Subgroup:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Victims_of_Rape_Total]' derivation='Sum' name='[sum:Victims_of_Rape_Total:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1bsjbsj1wisohz1dzejq90jlkuq9].[none:Area_Name:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Area_Name:nk]' />
+              <groupfilter function='member' level='[none:Area_Name:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1bsjbsj1wisohz1dzejq90jlkuq9].[none:Area_Name:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Madhya Pradesh&quot;</bucket>
+              <bucket>&quot;West Bengal&quot;</bucket>
+              <bucket>&quot;Assam&quot;</bucket>
+              <bucket>&quot;Maharashtra&quot;</bucket>
+              <bucket>&quot;Rajasthan&quot;</bucket>
+              <bucket>&quot;Uttar Pradesh&quot;</bucket>
+              <bucket>&quot;Andhra Pradesh&quot;</bucket>
+              <bucket>&quot;Odisha&quot;</bucket>
+              <bucket>&quot;Chhattisgarh&quot;</bucket>
+              <bucket>&quot;Bihar&quot;</bucket>
+              <bucket>&quot;Jharkhand&quot;</bucket>
+              <bucket>&quot;Haryana&quot;</bucket>
+              <bucket>&quot;Tamil Nadu&quot;</bucket>
+              <bucket>&quot;Kerala&quot;</bucket>
+              <bucket>&quot;Karnataka&quot;</bucket>
+              <bucket>&quot;Punjab&quot;</bucket>
+              <bucket>&quot;Delhi&quot;</bucket>
+              <bucket>&quot;Gujarat&quot;</bucket>
+              <bucket>&quot;Jammu &amp; Kashmir&quot;</bucket>
+              <bucket>&quot;Tripura&quot;</bucket>
+              <bucket>&quot;Himachal Pradesh&quot;</bucket>
+              <bucket>&quot;Meghalaya&quot;</bucket>
+              <bucket>&quot;Uttarakhand&quot;</bucket>
+              <bucket>&quot;Mizoram&quot;</bucket>
+              <bucket>&quot;Arunachal Pradesh&quot;</bucket>
+              <bucket>&quot;Goa&quot;</bucket>
+              <bucket>&quot;Manipur&quot;</bucket>
+              <bucket>&quot;Chandigarh&quot;</bucket>
+              <bucket>&quot;Andaman &amp; Nicobar Islands&quot;</bucket>
+              <bucket>&quot;Sikkim&quot;</bucket>
+              <bucket>&quot;Nagaland&quot;</bucket>
+              <bucket>&quot;Puducherry&quot;</bucket>
+              <bucket>&quot;Dadra &amp; Nagar Haveli&quot;</bucket>
+              <bucket>&quot;Daman &amp; Diu&quot;</bucket>
+              <bucket>&quot;Lakshadweep&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.1bsjbsj1wisohz1dzejq90jlkuq9].[none:Subgroup:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Subgroup:nk]' member='&quot;Victims of Incest Rape&quot;' />
+              <groupfilter function='member' level='[none:Subgroup:nk]' member='&quot;Victims of Other Rape&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.1bsjbsj1wisohz1dzejq90jlkuq9].[none:Year:qk]' included-values='in-range'>
+            <min>2010</min>
+            <max>2010</max>
+          </filter>
+          <slices>
+            <column>[federated.1bsjbsj1wisohz1dzejq90jlkuq9].[none:Area_Name:nk]</column>
+            <column>[federated.1bsjbsj1wisohz1dzejq90jlkuq9].[none:Year:qk]</column>
+            <column>[federated.1bsjbsj1wisohz1dzejq90jlkuq9].[none:Subgroup:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.1bsjbsj1wisohz1dzejq90jlkuq9].[sum:Victims_of_Rape_Total:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.1bsjbsj1wisohz1dzejq90jlkuq9].[sum:Victims_of_Rape_Total:qk]' />
+              <text column='[federated.1bsjbsj1wisohz1dzejq90jlkuq9].[sum:Victims_of_Rape_Total:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='has-stroke' value='false' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1bsjbsj1wisohz1dzejq90jlkuq9].[none:Subgroup:nk]</rows>
+        <cols>[federated.1bsjbsj1wisohz1dzejq90jlkuq9].[none:Area_Name:nk]</cols>
+      </table>
+      <simple-id uuid='{D386401C-F727-4FC8-8BCE-60E53E50FAB7}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Rape cases against each age </run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='20_Victims_of_rape' name='federated.1bsjbsj1wisohz1dzejq90jlkuq9' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1bsjbsj1wisohz1dzejq90jlkuq9'>
+            <column caption='Area Name' datatype='string' name='[Area_Name]' role='dimension' type='nominal' />
+            <column caption='percentTotalof50&gt;' datatype='real' name='[Calculation_1299570012595646467]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='(SUM([Victims_Above_50_Yrs]) / SUM([Victims_of_Rape_Total]))' />
+            </column>
+            <column caption='percentTotalof10-14' datatype='real' name='[Calculation_1299570012609277956]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Victims_Between_10-14_Yrs])/SUM([Victims_of_Rape_Total])' />
+            </column>
+            <column caption='percentTotalof14-18' datatype='real' name='[Calculation_1299570012609531909]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Victims_Between_14-18_Yrs])/ SUM([Victims_of_Rape_Total])' />
+            </column>
+            <column caption='percentTotalof30-50' datatype='real' name='[Calculation_1299570012609724422]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Victims_Between_30-50_Yrs]) / SUM([Victims_of_Rape_Total])' />
+            </column>
+            <column caption='percentTotalof10&lt;' datatype='real' name='[Calculation_1299570012609986567]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Victims_Upto_10_Yrs]) / SUM([Victims_of_Rape_Total])' />
+            </column>
+            <column datatype='string' name='[Subgroup]' role='dimension' type='nominal' />
+            <column caption='Victims Above 50 Yrs' datatype='integer' name='[Victims_Above_50_Yrs]' role='measure' type='quantitative' />
+            <column caption='Victims Between 10-14 Yrs' datatype='integer' name='[Victims_Between_10-14_Yrs]' role='measure' type='quantitative' />
+            <column caption='Victims Between 14-18 Yrs' datatype='integer' name='[Victims_Between_14-18_Yrs]' role='measure' type='quantitative' />
+            <column caption='Victims Between 30-50 Yrs' datatype='integer' name='[Victims_Between_30-50_Yrs]' role='measure' type='quantitative' />
+            <column caption='Victims Upto 10 Yrs' datatype='integer' name='[Victims_Upto_10_Yrs]' role='measure' type='quantitative' />
+            <column caption='Victims of Rape Total' datatype='integer' name='[Victims_of_Rape_Total]' role='measure' type='quantitative' />
+            <column-instance column='[Area_Name]' derivation='None' name='[none:Area_Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Subgroup]' derivation='None' name='[none:Subgroup:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1299570012595646467]' derivation='User' name='[usr:Calculation_1299570012595646467:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1299570012609277956]' derivation='User' name='[usr:Calculation_1299570012609277956:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1299570012609531909]' derivation='User' name='[usr:Calculation_1299570012609531909:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1299570012609724422]' derivation='User' name='[usr:Calculation_1299570012609724422:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1299570012609986567]' derivation='User' name='[usr:Calculation_1299570012609986567:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1bsjbsj1wisohz1dzejq90jlkuq9].[:Measure Names]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1bsjbsj1wisohz1dzejq90jlkuq9].[usr:Calculation_1299570012609277956:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1bsjbsj1wisohz1dzejq90jlkuq9].[usr:Calculation_1299570012609986567:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1bsjbsj1wisohz1dzejq90jlkuq9].[usr:Calculation_1299570012609531909:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1bsjbsj1wisohz1dzejq90jlkuq9].[usr:Calculation_1299570012609724422:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1bsjbsj1wisohz1dzejq90jlkuq9].[usr:Calculation_1299570012595646467:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.1bsjbsj1wisohz1dzejq90jlkuq9].[none:Area_Name:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Area_Name:nk]' />
+              <groupfilter function='member' level='[none:Area_Name:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.1bsjbsj1wisohz1dzejq90jlkuq9].[none:Subgroup:nk]'>
+            <groupfilter function='member' level='[none:Subgroup:nk]' member='&quot;Total Rape Victims&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1bsjbsj1wisohz1dzejq90jlkuq9].[none:Area_Name:nk]</column>
+            <column>[federated.1bsjbsj1wisohz1dzejq90jlkuq9].[none:Subgroup:nk]</column>
+            <column>[federated.1bsjbsj1wisohz1dzejq90jlkuq9].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.1bsjbsj1wisohz1dzejq90jlkuq9].[Multiple Values]' value='p0.00%' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1bsjbsj1wisohz1dzejq90jlkuq9].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1bsjbsj1wisohz1dzejq90jlkuq9].[Multiple Values]</rows>
+        <cols>([federated.1bsjbsj1wisohz1dzejq90jlkuq9].[none:Subgroup:nk] / [federated.1bsjbsj1wisohz1dzejq90jlkuq9].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{FA0FB5D2-61E2-4558-8FC8-5058F56098F4}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1bsjbsj1wisohz1dzejq90jlkuq9].[sum:Victims_of_Rape_Total:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[Parameters].[Subgroup Parameter]</field>
+            <field>[federated.1bsjbsj1wisohz1dzejq90jlkuq9].[:Measure Names]</field>
+            <field>[federated.1bsjbsj1wisohz1dzejq90jlkuq9].[none:Area_Name:nk]</field>
+            <field>[federated.1bsjbsj1wisohz1dzejq90jlkuq9].[none:Subgroup:nk]</field>
+            <field>[federated.1bsjbsj1wisohz1dzejq90jlkuq9].[none:Year:qk]</field>
+            <field>[federated.1bsjbsj1wisohz1dzejq90jlkuq9].[sum:Victims_of_Rape_Total:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{783704F2-94F5-45E1-9922-D952F63A0673}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1bsjbsj1wisohz1dzejq90jlkuq9].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1bsjbsj1wisohz1dzejq90jlkuq9].[:Measure Names]</field>
+            <field>[federated.1bsjbsj1wisohz1dzejq90jlkuq9].[none:Area_Name:nk]</field>
+            <field>[federated.1bsjbsj1wisohz1dzejq90jlkuq9].[none:Subgroup:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{3308259C-AF82-4AED-AD13-0FBC1B289804}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='106' name='Sheet 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAABqCAYAAADqW16PAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAASqElEQVR4nO2de1xUZf7H3+UMKRhakDaLhgnJHW8HlDFAJPCK0OKKSYpbdsOftZiZl1Uk
+      Uze3n1am5m65i6wWbbihaRJCAjaCDIkIyJCguLqoiT8lIYVRf3/McJPBGzfd87xfL14vZs73
+      POd7Zp7POc9znufzzAPXr1+/jkAgUx7s7AQEgs5ECEAga4QABLJGCEAga4QABLJGCEAga4QA
+      BLJGCEAga4QABLJGCEAga4QABLJGCEAga4QABLJGCEAga4QABLJGCEAga4QABLJGCEAga4QA
+      BLJGCEAga4QABLJGCEAga4QABLJGCEAga4QABLJGCEAga4QABLJGCEAga4QABLJGCEAga4QA
+      BLJGCEAga4QABLJGCEAga4QABLJGCEAga4QABLJGCEAga4QABLJGCEAga4QABLJGCEAga4QA
+      BLJGCEAga4QABLJGCEAga4QABLJGCEAga4QABLJGCEAga4QABLJGCKCjKIslXJKQJInw2LKb
+      bpei01t3rPRoJCmc+sPc+Lqj0aeySJII21Ta5O2qXW8iSRJeyzQ3hC9Ckl4joaL9UxMC6FDs
+      CAkZhC5Ty43fbYU2k9LRo3mmU/JqZxQOOLtASUERVY3eLio4iIOHB93yi2gsjeIjeaByxcmq
+      jY5/kwuAEECHoqDv2LF4ZO9hbxMFVJGlyUY9YgQPdVZq7YoNgz1VcLCAovr3ysjPhUHPBTG4
+      pICiemVUcCS/HOUQNwZ0QGZCAB2NtcRwh2w0WY2uhfocsjQeqId1bxZ+Nn0NkVMC8TY2j7wD
+      X2Blajn6RjH68lRWvmCM8fJj2oY8k4e+8rOW2LmT8PMyxL36WaHhinwmnpmSxMz4M03iKxJe
+      Q/KaR1KVyeLuiAFO7lCZT9Ep4xtVBeTpvBiqdsTF7iAF9crQUZgLg9xdUDScIKkrXyDQW0KS
+      vPCbNJfYvMqGwivzGs5L8sJvUiRrjJ9RerSENGcnoGNtqLGJGR5L3c1ACKDDscVDrUKTldNQ
+      iQ9lkeEykqdN3PLL/wNj/xhLUqYWbWY6f5lyle3zFpNQV1erNKycMY+91rPZnJ6Jdn8S66Y6
+      mDhuKcnfljP0zc0k78/ku3nuaDesZXcF0HsCvxulJDd5Lw0SqGDvnmyUgRPwt2j9WSscnHGh
+      gEKd8ayLCjjo4oyDoj+Orr+SX6eMsp8oqlXhWt/+qUKzcgbvnvDnw6RMtNo0NodfJ/aVt+s/
+      g5yNf2BteSDrUwzbE//0LJf3pnMK8InRol09HnBgdoIWrVaLdksEtsbShQA6AWe/MVhnZHHI
+      +LowMx2V93B6m4gdOCWKIFcV5gpAYY5TWBhqcinUGbZX7I4jsXIUc6KDeNJcAZhh2cNUQ6o/
+      E6YH4aoyR4GCR616ApVcugRggf+EQJS529ldd2msykKTbUnweHXDlbg12AzGUwVHj58A4FRR
+      Prg6YgM4OA+iuNRwYH1JMTrlENzq2j8Vu4lL7Mnzb4XjZDy/vs++SKh1Nnv2GdqRVZcqwVqF
+      Td352wew4J2w+kp+M4QAOgPn4fiQTmYhQBnZGlB7mP669OWprImcYrz9S0i+S0hrtL0gLxv6
+      u+DYyqu0Qj2eYEsdibuLAahKSyHNciwBnm1S/YEBOLnXdYT16AoLGOziCICVkyvWxo5w8ZE8
+      GOSOS91hdYXkUsL6ycbzlyQkaTp/K4dKg3oZOjqUxw/EMD4kkhWxe8g/W3PbWQkBdAoDGeZ9
+      Dk12GVRoySz3YbiziTB9DmtmzGN393A2JmUabt/a1Yxvj5QUnvw27AlOJH1PMVXs26vhibBg
+      hrbdARg4xMPYES7mSJ4dLnWqHeCEe0kBRVWGDrDK1Yn61qBeTy12RH5pbL40+tsSYbhoWKgX
+      8HXKDjb8zzDI+pjXxvkyYVk6lSbzaIoQQKegYOgwNbpMLWVZGnRjR5muaKfyya2wI+zVuuZN
+      c6x7qaD8LOfaIKsBIWEMOvENyXk5aDJUjPZr2+cwVk6uqCrzKTp0hPxzrjj2N25QOODscpCC
+      Ih2FuUqGuDU6rt0AXChBk33GZJl1KMxVuD4TwcL1X7Nz1SiqEz9jx6mb7gIIAXQaFr7++Gan
+      81HKAbyHDTQdZP04NsoSUvYUU4Oe6nItsXNXk9ooxHnCJBwqt/HRuoOc14O++hjJKaafAt2S
+      3hP43ahzJLy1nO9cwghpXP/rBuoaDdKlR0t3NsA2wI0hygIOf/kjuYOcaeiq2+DoCrnbdpJf
+      Owh3l0ZitwkizFdJ7gfzWKc9Sw1ATSVHMzay9ptTQBnxS5YQry2nWg9Qw+UrAOZ07Wosw8Ud
+      D0pJTSmmBtDX1NQ/gBAC6CwshqH2+IG0NE+GDW2hnW3hT9TicVTFTUUt+TF1WQZ933ydUY1j
+      bMNZ+9Fkrn0VSeBwLwJe+QLsTT0Fuq2k8J8UDBUVuASMNNkpbxUKF9wHwZ6kJKwbN3MAR5fB
+      6JKSKGk2AGbJuPe2sWpiFxKjxqGWJLxGP8eK5K5IQ3sDNviMtaNgfQSjh0tIkprQNeUErFpC
+      cF05VsEsWTWRa3ERqCUJv9e31z/teuD69evX2/o8BfcxhesImp7PjKQNhLbVSOw9jLgDCBqo
+      KWbTe/+gJngaY2RQ+UEIQGCkLDYcSf0i2x+by4YFatpg7Ou+QDSBBLJG3AEEsuaWw3xarbYj
+      8hAIOgXRBGpn9pzSdXYKHcoDnZ3AHSKaQAJZIwQgkDVCAAJZc9cC0KdH4yUFsa6w+TaD2blu
+      jkgZseFNXTh3i2HuSTSttIwL6qmh/Ns1LA4cwYQ+jgQ8NYJXZ8Vz/IqJyBPJrA/y4I1PO8tZ
+      3z7ctQAUQ4ehptwwpbcJenKyNPCED16340hoRjrRLa2cIGhTjrwXxIKvzQn+JJnEk0Uk53/N
+      LPtviJr7Hb/WBV35N/uiJ/N8+Ddc7Wvdmem2C3ffBLLwxd8XEyscHCIroxaVv7fR1GxLxJam
+      NrS7xSdGi1Ybg08ryxEYsAzdwGcbX0Hqb04XgIcewy3qJXz/tY/DxphT//wLecNXEfv9h/x2
+      SI9OzLZ9aEUfwIJhag/I1tDY301hJumVKsb4NTg80qNvbALpKU9dyQuB3oZ1YfwmMTexzLh8
+      xRx2Arq1oUb3T8N027LY8CZNIMPr+cRlbGTuJD+8JAnvkLkkFJ/lYPwSpvl5IUleTPhDAqV1
+      81+bGKwNJvMl8XktmCf0nD8YW1+25B1C5CcazutNBt932Nj3N1T8xly8yEW73jxaF/P8MiLH
+      9qNbWxnD7jFa1Qm2enokg9CQldNQI8qyNZRbtuBwMlKZtJDJi37EaXECGq2WtPileHa9AD4x
+      9Y4nh9kJRufPFiJueuvQcfTCCN7cnMx+zSYmPbiXlW+v46TLa2xM3o9m0xTM9r3PlgOG6IrE
+      d5iXrCIqQYNWm0lSbCR2+9PIN1GyPmcNz720lQcjNpOm1aJJmMVj/3qd51ZqaIOFEu49Lh4m
+      7sWP6bF0GvadnUsH0bqnQL2H4+1QS0ZWnb27Am2mDstAX1qweAA5bHwvlZ5TFhPl3QszwKyX
+      K5NHt7zHzXHHP8gVlbkCzNwZ7Aa4+9cbyc3cB+NGLXqjRi9dqgSLXtg8agYoMFdJRHwwG3Wz
+      citI/DSeylFziA7qa8wzgMWLxlOZGGdYTeG/Bj0XM9Yw23cJl9/4nNl+lp2dUIfRysegtnj5
+      PEFleiaFYFxJQIm3ekjLcyxOFZFfCUMGu7fNagN3iO3IiQy8EMcrAdOY+8mXaI9VY7pFY1if
+      pr+LY5OZkQrb/vQnm7yCjsm33dGf58d3f8dLq+D3Kf/kJe9HmzeL/otp9TjAAG9/VOUasstA
+      n5OFRumNuiWH072AbRifpaQS9+cg7I/u4K2pPvi9uKWhjyArKjmw6Dm2WLzDph1RDLG6h7+3
+      dqL1A2HOfoxR6cgrqOJQVga16pE8fbPJ5Mb1YX48mNfClbcDMLPEXprMq+/HkbwlkicOfVzf
+      R2jAAedBUHrDepZVRQWU4oG7Swfm205c2rGU9SwiJsqN5mvSyYM2GAl2ZriPJZofPiUtvRIP
+      9bBbmCmcmfaaL+e+WMaaDIPJWV99jB1Jdf0IF9w9oDQ1hWKDg5maNlSKZu3LrEk+SmUNgJ6a
+      K3qgG12brSVlRfDMMCxTVxOz49/UADVnk1m1OhXLRo6pZsZwE+bxe5MK9v3zP0x81Ue2lR9u
+      Yzr07TDQN5BukXFsxYMFI2/tpbMc9x7buv6ZRctCUZ//FeXDTgTMf5cgAKwIXrKK4nnLiFCv
+      p7abxPwvPmGSTVtkCq5jgshaM5/gJcf5pRaUD/djxOwPeMXEuiSKoVF8/tderFg+Hd+YX6jt
+      1gfP8I/4fOZ/g2NKx0/7c9nu7ciGZtsms/zkO3hSxrbg0WzIabxtNAFLDf+NjyviD34dkWv7
+      IaZDtzNiOvS9jZgMJ5A1QgACWSMEIJA1QgACWSM6we2M29QVnZ1Ch9JtQN/OTuGOEHcAgawR
+      AhDIGiEAgay565FgfXo03nN+5PnNO5h1w9z/ql1v4rvkNLMTthBhW0ZseChrmU1CK11h6dES
+      c3aOZ7XMXGHW9hJvTJcYZfsolkqg9ld+yk5lwV8PoTPh322C4mF8QyfyzoTL/O+0BLbfRYxT
+      2Ct8GXzjCH8Ff1uwkdXt4lztwlODPVjo2w+HnkoU12o5fTyfxZ/nc6i2pV0eJsB3KL8f+jj9
+      LJQouEb1hTN8tUPDxpJqahvFTQwZyRyXnphTe/cCMHiCd6LJLmOWc+NqXecJntEKT/Acjs5O
+      qP8JHHnTBU+fp/h1dyKhuWc5XX0VpXlvnn0plC1zHsB/ZS4XW9hPNfBp/vSqB9YFxzhrco7z
+      7cTAUzbd+ebPK1hwsM1O6qaog55lidUxPvwigT2na6lVWjAywI91YZcZ94+jpt171raMfaSc
+      D/6+n8M/X+FXutBngBsxoWN4Y+s23j8JYEbgb8fy+oM5PL+yhJNYCE/wvc9Vdm36nBWack5X
+      XwWgtvoMX67LINvNDt8W93uKlyfC5ugPGf/xEU7fdUwv7G3OUXqi9Wdyu1RoUwn6ew7fnq41
+      XLlrq9i7K59MexuebmmnM/nMSdBx4OcrRkP/VU4W57L6x2sMH9DTEPPIAKb3Ocb8r0o4WWso
+      V3iC71NPsPIpFfbHy+t/arU5RcQsSyPlbEtthtuNsebJbuXkdaADTld+nmYZWTxEj1+qOXtH
+      JXXF5TdmFJ0yfLuWdo9jpStDe7UhQniC7ytPcBcsH1ExKuRZvp7Vk7+vzWr1Wku3xMaKvj0l
+      Pt26kMNbF3I4NopdC59hjKoDfWMWjzM/wo2L3x3mtpZqVj6EfT875r4wjuAz6azRXQNAZWnO
+      mQuXmoS2bjq00RMcm3UIfIbS4Al+4zY8wZuI8u5lSKCXK5NH320SRk+w8f/BbhCHwRNseGsw
+      bsTd4Al2NHqCMXqCJRPl1nmCl9d7gukVwOJF+/CeE8fuSHWH/oRQ447o+SPf8/bCA2RWXr3F
+      Xm3AqQxCpmbUv1SaP4JP0ARiYkIweyuB7aY7IG3Eg/R29mR9sIr8xF0sKLx8i/h+vL/U29BE
+      rrnAzp0pzDx0sWGNI+DcL9U3HKFVCE9wR3EkfiNuU1cwZOZHvJFixrSlr/PVpMdRdmwa1Fb/
+      HynxW4k51I8XAtrxCtDFnICQYOL94ZOPE4kurG7eLGrGceYujcNz6VbG/PUAPz0xgq/meDOu
+      0Rdo/bB5kz2EJ/g+8wTXVl8iV5PGrHn/onDUaGZ0ym95XeXkuUsourRXM6gr4yaN48Wa/YSu
+      zST5l2t3uP9Vzv98hq07djH9h268FfAbAMorq+nds6n/TXiC71dPsP4yv1zpzmPtLIAePcxN
+      3GW60Me6O5eqb9UkuTuspKd5HS2zdp2mtX3vysu1WHQ3xxyoLDlNhYMtUiPdCk/wPe8JdiR6
+      +TginK2xMuaoNH8E/7AAghU/kVLaRodpgV4BU9iz+BmC7M3pBvBQD/zDphI9sJTNqaafnbUO
+      c4IGmfPN3uN3VPkdvEeyepQtbg8rjYLtwqM2drw7UkVO0UmqAf6vmM0nn+RPk+zoowSUFsIT
+      fO97gkv4Yk8f3p4eTqSNBeZdMIwE52Xx9h81ZBkvDkppIhkv63nr5V1kAIwI5fCspj+YPXLr
+      QpYDlP/A5DfTOHI7MV/F8bJfANGzI3nnMTMUV2soP5bL8vnf8227PAqzxuk3PfB7bRrTm207
+      wdKlaewClA4j+C74KotWZaIBSnN1FAYOJCZyBH26dQGuUX2hgpTvd/DHQ3V3qhq+2/YtXUNG
+      8o8FasypFdOh25uOmQ7dk5eWRdB/28csONgBT4ZuQsdMh+7OjJljeDJtG9E/3Wn/oCn3cG9V
+      cLsonTzxPBJPZCdX/o5CaeuEdDyVqFZWfoD/B8afxf9zkWSzAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAQ00lEQVR4nO3dWVcj+XnH8W+VJLShDS2A2KFhaHd7OjM9jh0fJ/GVjx3n5F3k1eS15CbJ
+      TU5yfE5sJ7Znunumm6HZJRBICO37VqqqXMAw0z20x+pBYqnnc4VA/HnqoF/9q0p66q+Ypmki
+      hEWpN12AEDdpKAEwDINmszmMoYW4VkObAQzDGNbQwlJM9rde8enzL9D0i6P1XpOdZPpaRrdf
+      yyhCDIup8+zFBr/4x3/icPMzIour7G9s8nw3RfpkmbnQGMenRaKxEInjAjOLS1RzWSYDPqYe
+      zJM8OKV0doTDO8HP//anqMqbw8s5gLjlbPz617/kt//5H+wcJGl32qRPC8RmlmhV8ny5d8RS
+      xE06k8Yb/4C4r82Mp8OzVwma7SYnmSw9xtCrOVr9b48uARC3m2lwsL9PZG6FT54+JZVM8WB9
+      jbC7z8zSGuvLs3yxdUBoapHVuQimPUzBnODXv3jKSfKU5YUZTlMHBOfW8Dq+PbwyjMugX50E
+      +3y+6x5aiDfk0oekiy0+fPwQ29vHN4Cha2TzJeJTk1f+vgRA3BzTROtrmCbY7HZs6tUHJIZh
+      oKoq/b6GYYLDbkdRvv1if/v5X12IUd8a96ufgxwCiRuWO03xu9/9H812l/Rxila7xZ/++Acq
+      9Qbp4yOanR47uzsAvHrxnOTul6TzTbLpY2rNDvVKkUw2j2kapI+P0XSDxO4ufRN2dnYoFkto
+      nSbp0ywvnn1KNl+iVCzRrFdIn57JVSBxgxSFmfkF6k2TVu4ENRAlkUzh9njw2k0OcnmOc1UC
+      Fwfvpq7T6vSJOOEknad2nCPqdzHusvPF5yd0eh3KbYOVqQDJg32c/hiFQp58rs/8whJFp4uJ
+      oJ/E3j6m0UfvdWUGEDdPVVXcHjenJ8c4nB7MfpfsaRZddWK3fX0I4wtFiEWCNMt5On2w21W6
+      7Qb5SpOJkB+318d0LIzLH+Pk8JD4ZAhVVXHaFTLZPG6HSrZQPv973nG8Xp+cA4i7LZNJE4/P
+      vPfvXwag0Wig6/q1FGWaJp1OB7fbfS3jCTEsMgMIS5NzAGFpEgBhaRIAYWkSAGFpEgBhaRIA
+      YWkSAGFpEgBhaRIAYWkSAGFpEgBhaQMFQGvXePbsBa93EwDUy3l+/8dnmHqPjZdfcHhyOpQi
+      hRiWgRpi2tU8sx88oZY9D4AvFCUcLNBulKg1NPpKibn4JIauYxgG/f4VbfhC3CIDBcDlC7G/
+      t8WYc4xGo4Ghdchms0QjYVwuGyomKCq2iyYGu10azsTtNtjHoU2TXq+HzTGGaehgGmh9HbvD
+      gWIamIoNh90mH4cWd8Zgu2hFYczpPP9aPf9V+xX3WhHirpCrQMLSJADC0iQAwtIkAMLSJADC
+      0iQAwtIkAMLSJADC0iQAwtIkAMLS5NNqYiT+9yjJv219edNlfIvMAGIkhnAL2mshARCWJgEQ
+      ljZYAEyTVrOOphsXD0263e7F1zrtTvfaCxRimAYKQLdZZC+ZYWdnD4BGpcCnn78CTNLJfTa2
+      9odRoxBDM9BVoG6jyuTCgzd6giPBAp16kcNshb6u09cNTEN6gsWbvlqy9LYZKACeYIz9zZd4
+      AhNUq1WMXotMJkMoHOOjJ49IHh5jUxVMxSY9weINb6/Ve1vIEkliJH5/mODftzdvuoxvuZ2x
+      FGJEJADC0iQAwtIkAMLSJADC0iQAwtIkAMLSJADC0iQAwtIkAMLSJADC0iQAwtIkAMLSJADC
+      0iQAwtIG61gxTb5qHlAU5fJWF4oCX3UVKIpyjeUJMVwDzQC9doVnzz/ny+3z3t9GpcBv//Ap
+      Rr/P3s5rPnv+itvZ+CbE1QaaATq1EnNvrRMcmyig2u0E/T5sbhsYBrqsEyzeci96gt3+MDuv
+      X+Ie91/2BKdSKfzjHrZ3kiwsLaOoKjZknWDxJukJFpYmPcFC3EISAGFpEgBhaRIAYWkSAGFp
+      EgBhaRIAYWkSAGFpEgBhaRIAYWkSAGFpEgBhaRIAYWkSAGFpEgBhaQOvE1wu5Oj09IuHJo1G
+      A4BauUiz07v2AoUYpoEC0KnnyVY67O/tAuc9wS83t9HaNY7PSiT297n27hohhmignsVeu0Eo
+      Nk/tLAmc9wRPBApoWodgMEq3lkc3DEzpCRZvuRc9wd7QFInNDbzByGVP8NnZGaGJCKWzJDZ3
+      EJuqYiI9weJN0hMsLE16goW4hSQAwtIkAMLS3hkA0zQxDIMhnCIIcWu88zLNiz/+DzXdQTQ4
+      wePHD0dZkxAj884ZQFFVDjY/pyZv7op77J0BUDHxh6I4xxyjrEeIkXrnIdDCyjrhqTlSp+VR
+      1iPESL0zALVKiVy5wdr6D0ZZjxAjdWUADjaf8aeXu+h6H9MZIBpcG3VdQozElQFYefQJta5J
+      u13HZZPLoOL+uvIk2DRNorFpbLoOdueoaxJiZK4MwNHuS549f0HT9DAXj426JiFG5soAzCyu
+      MTsZopI/4dXWwahrEmJkrjwHyJ2miS085OmPfybLnop77coAzCyuXvlko99je2ub8fAU8/EY
+      tWKWZDrP4tIy6aMDbO4AaysLQy1YiOs0UMtWs5QhOLdOI38IxMgWa3z4aIXt7RTtjoZqNDFl
+      mVRxhXvREmmzO+i2W/S1ixe23qfdbqH1NcYnpunVc5iKis0mLZHiTbe1JXKgqtyhaWydAvG5
+      JarVKsvLi5ycVnn46CEuWoSn51HllEHcIQPtohVFZX7pwcUjNwBrqysALCw/uHyevHUm7orb
+      OS8JMSISAGFpEgBhaRIAYWkSAGFpEgBhaRIAYWkSAGFpEgBhaRIAYWkSAGFpN/JxTaN8SOtf
+      //km/vT3Zov/Fe5/+JebLkNckxsJgKlrmPXTm/jT35vZmrvpEsQ1kkMgYWkSAGFpAx0C6b0W
+      G5s7eAMRVpfnyGeOyORKxBdXKaSTuAMRFmenh1WrENdusJ7gcpaplR9eLpNaafT48MlDNp5/
+      Sa1rEFTq6MYkxnf0BBu6/v0rvyGmaUqv83u4Fz3BY+5x0rkMutZH0zRUUyObyeIORTBbbVRT
+      +4t6gnWb7VqKvwmKokiv83u4rT3BA/0nXb4oU1oet28GTeuyvLpGrlBmJR6hVaug25zYFTCk
+      J1LcEYPtyhSFUPjiVoljHgAmY1EAxgOhay1MiFG4nfOSECMiARCWJgEQliYBEJYmARCWJgEQ
+      liYBEJYmARCWJgEQliYBEJYmARCWJgEQliYBEJYmARCWJgEQljZQP4DWqvDF6wTucT+P1x9w
+      ktylWK0TmVnF1smROOvw008eD6tWIa7dQAFo14rMffCEWjZx/lhTePLkEa83DuirKi6bgfEX
+      rBMsPcHWcy96gl3+CXZev8Tl9VGtVnHZDV6+fE0gEkc1uiRTGUDBZrNJT7B4w73oCR5zB/nk
+      6UeXj/1+P7MXXyvA3Nw8iqJgSFOwuCMG7gn+c+tgyxrZ4q65nfOSECMiARCWJgEQliYBEJYm
+      ARCWJgEQliYBEJYmb2mOWOM3v0EvV266jPfi+9UvUT2emy7jWkkARqz+X/+Nljy86TLei/fn
+      f3/vAiCHQMLSJADC0iQAwtIkAMLSJADC0gYLgGlSLRfpaucdXabRp1AsYZom9WqZerM9jBqF
+      GJqBAtCpFzjJ1djb2wMgub9Hp1kmcZyj1mxxsLfH7Wx8E+JqA70P0GvVCU/PX64TrGNndm6G
+      vb0chqNLeHIapCf4Owa4vlpGTdd1eM9tvxc9wZ6JSQ6+3MAbDFOtVgl4Hbx8uUV0aorEfpqp
+      uBNFVbEh6wS/e4Drq2XUbDbbe2/7vegJto95+ejjr3uCCQSIzSwCEJ+avvz2Hd7JCYu5nbEU
+      YkQkAMLSJADC0iQAwtIkAMLSJADC0iQAwtIkAMLSJADC0iQAwtIkAMLSJADC0gYKgGmanBwl
+      qDW7AOhah/2DJH3DIJs+olhtDqVIIYZloAC0K6f0HEGODw8AONg/YDo6zs72HvWenbOTI2mI
+      EXfKQAHQtS4uzziOsfNPUSs2B55xL3qnjcvlwelwyEehxZ0yUAC8E3FKqS3G3H6q1SqxkI9X
+      G/vMr63RKJ1gjrnlpELcKQM1xKh2J48/fPKN7wR4Ej1vhAk++uHld2UWEHeFYpqmCdBoNM57
+      Pq+BaZp0Oh3cbve7ngH6HV1rV1FAffd+wzCMP9/+p+tg3tFdxJ9ph/yu7TYBw7x9Z4iXAbhO
+      hmHQbDbx+XzXPfSt950BuKfu6nbfvYovaN0W3b5Bcv81zz57QfXi0ixAs/nNy7Em+Vz+64dG
+      j62tXSrFHInUKbrWZnNjg0KlAUCv3WBrNwFAu1Hi4CgzUF2jehEYep9Wp8NZ+ojPPntGtlC+
+      /Nmb2w+FXI5vLt2c3NuiWquxubUHmCT2tjg8yX6vekax3c1mE6PX5tXnL3i1ucXF7akwdI12
+      5+v/f72Yo/2Ng5mzdIqzQomtjU00zu9ntfl6G7glt0fPHx+SrTeIhCepFvPYPX7oVBjzhqhV
+      isSmpyme5XGOB9AaBTq6itNoUFaj/M2Hi3Rf53FodV6+2iEQDLG7tcnTH/01uewp3mCEVrVM
+      p1mhXO8QGYdU2WBmdpLuWZ6zTJP51XUyqSSR4Bq6qWL0u2AaHB2fYpiOoW9/p1lme/cY30QY
+      e79JrQcTHjtN3Y6930RxB1G6VZp9Oz6HQaXeIhDwsnd0ys9+9neM19pMBt28+uIlbp+fk+Qe
+      az98Sr9RoGU4sPW7YGpkzopMhCPsJI74UWQGjD56s4jujqG1ClSKKmeFCrMLS3hdw93uxO4W
+      9WaX2cV5spkME9E4+ZN9wrE4xXKV6akouVyOicg0Z+kkTl+Q3HGS5YdPmI2G0XxRipkkuVIN
+      /7iLg3SBjx6vk07nmXCZOGxOdlNH+IITJLa3+MGTj7EZJhpwepig3esBt2QG6PcMVtbWKBxv
+      ky7W0fs6puogPG7HH53FR5N0uUVf1xlzjzMZ8jAeirC4MH85RuaswPoPHtFqtZibn8Np9uho
+      OpnT8z14o91nKR5Ex8nc/CJ+nweF89uc6LqOaejs7e0z5nKjKgrN8hn1do90+pRh38VI1/tM
+      zSyidaocHh5h9HXaXZ3lpTg93c7CTJRkMoWu6/Sxszo/jerysrC4hPPiDjNaPY9ncpl+r8NU
+      fJZ4zEe5VCeTTgOQL9VZ/2CFRkdjYWGBcMiPTVFAUTB1HdMwaNRrKDY7DvsIbltjc7I642dj
+      a5+2ZtDXNDyBMEa7yfL6OuWzY3q6idbrMRGbxmlXiE3PMDsVvRyi1OiwvjRJS7ezsLhEq1qm
+      XEzT0qCUKzD34AO6zQbx+QXik1GcDjvQJ5crUTzLkDo6uh0zgN7vsrd3wIPHP8aTSuAc9zLu
+      CuDx+8glDmhFpliMtHF7vXidNhw2UG0OjtJppgOzRCeDBHxRdne2iS8s0yxmaBsqLqeLaMyP
+      e8yBovdIl1qsLsSp9BykUynanTrTc6tkUwkmZ5cI+dwUcxna7TYt4vzo4ycUixWG/3IwOErs
+      s7K+RsDjptG3EQ35URU7EwEnx6dF1tYe0DbHCAfHsbschNwqp6lDejrEYlEcwSDK7i6B8CQu
+      Opzmqvj843jCESIBH64xG/sHKRZWVuk0qlSKZ7Q7bXJNFZdRQg1GmZ2KYPQ1+iO4jteqlUjp
+      E/z040ccJFJ4x734x114XQ72D/aIzz/g5CSDzz+OTQVD96L0u5xkC0QCQZxjDjyTEfYzZVZW
+      FkklEowFQ0RiU0RiMVx+H6mDfSJTc6hGj26zSrnTpn+c5+lPfkKpWCQcDvP/Kmlz1sxkHqAA
+      AAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>

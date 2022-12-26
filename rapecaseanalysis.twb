@@ -1,0 +1,1024 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20223.22.1108.0821                               -->
+<workbook original-version='18.1' source-build='2022.3.1 (20223.22.1108.0821)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='33_CH_not_murder_victim_age_sex' inline='true' name='federated.0xsj9gv0f3ukqm1ehfft60mxf508' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='33_CH_not_murder_victim_age_sex' name='textscan.1um842614rufo016jhnjw01200w1'>
+            <connection class='textscan' directory='C:/Users/aryan/Desktop/archive2' filename='33_CH_not_murder_victim_age_sex.csv' password='' server='' />
+          </named-connection>
+          <named-connection caption='42_Cases_under_crime_against_women' name='textscan.14hilt50r7q35m132zkce0icgci8'>
+            <connection class='textscan' directory='C:/Users/aryan/Desktop/archive2' filename='42_Cases_under_crime_against_women.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.14hilt50r7q35m132zkce0icgci8' name='42_Cases_under_crime_against_women.csv' table='[42_Cases_under_crime_against_women#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='Area_Name' ordinal='0' />
+            <column datatype='integer' name='Year' ordinal='1' />
+            <column datatype='string' name='Group_Name' ordinal='2' />
+            <column datatype='string' name='Sub_Group_Name' ordinal='3' />
+            <column datatype='integer' name='Cases_Acquitted_or_Discharged' ordinal='4' />
+            <column datatype='integer' name='Cases_charge_sheets_were_not_laid_but_Final_Report_submitted' ordinal='5' />
+            <column datatype='integer' name='Cases_Chargesheeted' ordinal='6' />
+            <column datatype='integer' name='Cases_Compounded_or_Withdrawn' ordinal='7' />
+            <column datatype='integer' name='Cases_Convicted' ordinal='8' />
+            <column datatype='integer' name='Cases_Declared_False_on_Account_of_Mistake_of_Fact_or_of_Law' ordinal='9' />
+            <column datatype='integer' name='Cases_Investigated_Chargesheets+FR_Submitted' ordinal='10' />
+            <column datatype='integer' name='Cases_not_Investigated_or_in_which_investigation_was_refused' ordinal='11' />
+            <column datatype='integer' name='Cases_Pending_Investigation_at_Year_End' ordinal='12' />
+            <column datatype='integer' name='Cases_Pending_Investigation_from_previous_year' ordinal='13' />
+            <column datatype='integer' name='Cases_Pending_Trial_at_Year_End' ordinal='14' />
+            <column datatype='integer' name='Cases_Pending_Trial_from_the_previous_year' ordinal='15' />
+            <column datatype='integer' name='Cases_Reported' ordinal='16' />
+            <column datatype='integer' name='Cases_Sent_for_Trial' ordinal='17' />
+            <column datatype='integer' name='Cases_Trials_Completed' ordinal='18' />
+            <column datatype='integer' name='Cases_Withdrawn_by_the_Govt' ordinal='19' />
+            <column datatype='integer' name='Cases_withdrawn_by_the_Govt_during_investigation' ordinal='20' />
+            <column datatype='integer' name='Total_Cases_for_Trial' ordinal='21' />
+            <column datatype='string' name='F23' ordinal='22' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.14hilt50r7q35m132zkce0icgci8' name='42_Cases_under_crime_against_women.csv' table='[42_Cases_under_crime_against_women#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='Area_Name' ordinal='0' />
+            <column datatype='integer' name='Year' ordinal='1' />
+            <column datatype='string' name='Group_Name' ordinal='2' />
+            <column datatype='string' name='Sub_Group_Name' ordinal='3' />
+            <column datatype='integer' name='Cases_Acquitted_or_Discharged' ordinal='4' />
+            <column datatype='integer' name='Cases_charge_sheets_were_not_laid_but_Final_Report_submitted' ordinal='5' />
+            <column datatype='integer' name='Cases_Chargesheeted' ordinal='6' />
+            <column datatype='integer' name='Cases_Compounded_or_Withdrawn' ordinal='7' />
+            <column datatype='integer' name='Cases_Convicted' ordinal='8' />
+            <column datatype='integer' name='Cases_Declared_False_on_Account_of_Mistake_of_Fact_or_of_Law' ordinal='9' />
+            <column datatype='integer' name='Cases_Investigated_Chargesheets+FR_Submitted' ordinal='10' />
+            <column datatype='integer' name='Cases_not_Investigated_or_in_which_investigation_was_refused' ordinal='11' />
+            <column datatype='integer' name='Cases_Pending_Investigation_at_Year_End' ordinal='12' />
+            <column datatype='integer' name='Cases_Pending_Investigation_from_previous_year' ordinal='13' />
+            <column datatype='integer' name='Cases_Pending_Trial_at_Year_End' ordinal='14' />
+            <column datatype='integer' name='Cases_Pending_Trial_from_the_previous_year' ordinal='15' />
+            <column datatype='integer' name='Cases_Reported' ordinal='16' />
+            <column datatype='integer' name='Cases_Sent_for_Trial' ordinal='17' />
+            <column datatype='integer' name='Cases_Trials_Completed' ordinal='18' />
+            <column datatype='integer' name='Cases_Withdrawn_by_the_Govt' ordinal='19' />
+            <column datatype='integer' name='Cases_withdrawn_by_the_Govt_during_investigation' ordinal='20' />
+            <column datatype='integer' name='Total_Cases_for_Trial' ordinal='21' />
+            <column datatype='string' name='F23' ordinal='22' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[42_Cases_under_crime_against_women.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₹&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Area_Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Area_Name]</local-name>
+            <parent-name>[42_Cases_under_crime_against_women.csv]</parent-name>
+            <remote-alias>Area_Name</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[42_Cases_under_crime_against_women.csv_BC499B4152D348458D546E743D654DE0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[42_Cases_under_crime_against_women.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[42_Cases_under_crime_against_women.csv_BC499B4152D348458D546E743D654DE0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Group_Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Group_Name]</local-name>
+            <parent-name>[42_Cases_under_crime_against_women.csv]</parent-name>
+            <remote-alias>Group_Name</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[42_Cases_under_crime_against_women.csv_BC499B4152D348458D546E743D654DE0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sub_Group_Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Sub_Group_Name]</local-name>
+            <parent-name>[42_Cases_under_crime_against_women.csv]</parent-name>
+            <remote-alias>Sub_Group_Name</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[42_Cases_under_crime_against_women.csv_BC499B4152D348458D546E743D654DE0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cases_Acquitted_or_Discharged</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Cases_Acquitted_or_Discharged]</local-name>
+            <parent-name>[42_Cases_under_crime_against_women.csv]</parent-name>
+            <remote-alias>Cases_Acquitted_or_Discharged</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[42_Cases_under_crime_against_women.csv_BC499B4152D348458D546E743D654DE0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cases_charge_sheets_were_not_laid_but_Final_Report_submitted</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Cases_charge_sheets_were_not_laid_but_Final_Report_submitted]</local-name>
+            <parent-name>[42_Cases_under_crime_against_women.csv]</parent-name>
+            <remote-alias>Cases_charge_sheets_were_not_laid_but_Final_Report_submitted</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[42_Cases_under_crime_against_women.csv_BC499B4152D348458D546E743D654DE0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cases_Chargesheeted</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Cases_Chargesheeted]</local-name>
+            <parent-name>[42_Cases_under_crime_against_women.csv]</parent-name>
+            <remote-alias>Cases_Chargesheeted</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[42_Cases_under_crime_against_women.csv_BC499B4152D348458D546E743D654DE0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cases_Compounded_or_Withdrawn</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Cases_Compounded_or_Withdrawn]</local-name>
+            <parent-name>[42_Cases_under_crime_against_women.csv]</parent-name>
+            <remote-alias>Cases_Compounded_or_Withdrawn</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[42_Cases_under_crime_against_women.csv_BC499B4152D348458D546E743D654DE0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cases_Convicted</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Cases_Convicted]</local-name>
+            <parent-name>[42_Cases_under_crime_against_women.csv]</parent-name>
+            <remote-alias>Cases_Convicted</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[42_Cases_under_crime_against_women.csv_BC499B4152D348458D546E743D654DE0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cases_Declared_False_on_Account_of_Mistake_of_Fact_or_of_Law</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Cases_Declared_False_on_Account_of_Mistake_of_Fact_or_of_Law]</local-name>
+            <parent-name>[42_Cases_under_crime_against_women.csv]</parent-name>
+            <remote-alias>Cases_Declared_False_on_Account_of_Mistake_of_Fact_or_of_Law</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[42_Cases_under_crime_against_women.csv_BC499B4152D348458D546E743D654DE0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cases_Investigated_Chargesheets+FR_Submitted</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Cases_Investigated_Chargesheets+FR_Submitted]</local-name>
+            <parent-name>[42_Cases_under_crime_against_women.csv]</parent-name>
+            <remote-alias>Cases_Investigated_Chargesheets+FR_Submitted</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[42_Cases_under_crime_against_women.csv_BC499B4152D348458D546E743D654DE0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cases_not_Investigated_or_in_which_investigation_was_refused</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Cases_not_Investigated_or_in_which_investigation_was_refused]</local-name>
+            <parent-name>[42_Cases_under_crime_against_women.csv]</parent-name>
+            <remote-alias>Cases_not_Investigated_or_in_which_investigation_was_refused</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[42_Cases_under_crime_against_women.csv_BC499B4152D348458D546E743D654DE0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cases_Pending_Investigation_at_Year_End</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Cases_Pending_Investigation_at_Year_End]</local-name>
+            <parent-name>[42_Cases_under_crime_against_women.csv]</parent-name>
+            <remote-alias>Cases_Pending_Investigation_at_Year_End</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[42_Cases_under_crime_against_women.csv_BC499B4152D348458D546E743D654DE0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cases_Pending_Investigation_from_previous_year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Cases_Pending_Investigation_from_previous_year]</local-name>
+            <parent-name>[42_Cases_under_crime_against_women.csv]</parent-name>
+            <remote-alias>Cases_Pending_Investigation_from_previous_year</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[42_Cases_under_crime_against_women.csv_BC499B4152D348458D546E743D654DE0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cases_Pending_Trial_at_Year_End</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Cases_Pending_Trial_at_Year_End]</local-name>
+            <parent-name>[42_Cases_under_crime_against_women.csv]</parent-name>
+            <remote-alias>Cases_Pending_Trial_at_Year_End</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[42_Cases_under_crime_against_women.csv_BC499B4152D348458D546E743D654DE0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cases_Pending_Trial_from_the_previous_year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Cases_Pending_Trial_from_the_previous_year]</local-name>
+            <parent-name>[42_Cases_under_crime_against_women.csv]</parent-name>
+            <remote-alias>Cases_Pending_Trial_from_the_previous_year</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[42_Cases_under_crime_against_women.csv_BC499B4152D348458D546E743D654DE0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cases_Reported</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Cases_Reported]</local-name>
+            <parent-name>[42_Cases_under_crime_against_women.csv]</parent-name>
+            <remote-alias>Cases_Reported</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[42_Cases_under_crime_against_women.csv_BC499B4152D348458D546E743D654DE0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cases_Sent_for_Trial</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Cases_Sent_for_Trial]</local-name>
+            <parent-name>[42_Cases_under_crime_against_women.csv]</parent-name>
+            <remote-alias>Cases_Sent_for_Trial</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[42_Cases_under_crime_against_women.csv_BC499B4152D348458D546E743D654DE0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cases_Trials_Completed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Cases_Trials_Completed]</local-name>
+            <parent-name>[42_Cases_under_crime_against_women.csv]</parent-name>
+            <remote-alias>Cases_Trials_Completed</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[42_Cases_under_crime_against_women.csv_BC499B4152D348458D546E743D654DE0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cases_Withdrawn_by_the_Govt</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Cases_Withdrawn_by_the_Govt]</local-name>
+            <parent-name>[42_Cases_under_crime_against_women.csv]</parent-name>
+            <remote-alias>Cases_Withdrawn_by_the_Govt</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[42_Cases_under_crime_against_women.csv_BC499B4152D348458D546E743D654DE0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cases_withdrawn_by_the_Govt_during_investigation</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Cases_withdrawn_by_the_Govt_during_investigation]</local-name>
+            <parent-name>[42_Cases_under_crime_against_women.csv]</parent-name>
+            <remote-alias>Cases_withdrawn_by_the_Govt_during_investigation</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[42_Cases_under_crime_against_women.csv_BC499B4152D348458D546E743D654DE0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total_Cases_for_Trial</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total_Cases_for_Trial]</local-name>
+            <parent-name>[42_Cases_under_crime_against_women.csv]</parent-name>
+            <remote-alias>Total_Cases_for_Trial</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[42_Cases_under_crime_against_women.csv_BC499B4152D348458D546E743D654DE0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F23</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F23]</local-name>
+            <parent-name>[42_Cases_under_crime_against_women.csv]</parent-name>
+            <remote-alias>F23</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[42_Cases_under_crime_against_women.csv_BC499B4152D348458D546E743D654DE0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Area Name' datatype='string' name='[Area_Name]' role='dimension' type='nominal' />
+      <column caption='pearson correlation coefficient' datatype='real' name='[Calculation_2315976153858682882]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='CORR([Cases_Sent_for_Trial],[Cases_Pending_Trial_at_Year_End])' />
+      </column>
+      <column caption='ratio' datatype='real' name='[Calculation_2315976153957904387]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([Cases_Trials_Completed]) /SUM( [Cases_Sent_for_Trial])' />
+      </column>
+      <column caption='Cases Acquitted or Discharged' datatype='integer' name='[Cases_Acquitted_or_Discharged]' role='measure' type='quantitative' />
+      <column caption='Cases Chargesheeted' datatype='integer' name='[Cases_Chargesheeted]' role='measure' type='quantitative' />
+      <column caption='Cases Compounded or Withdrawn' datatype='integer' name='[Cases_Compounded_or_Withdrawn]' role='measure' type='quantitative' />
+      <column caption='Cases Convicted' datatype='integer' name='[Cases_Convicted]' role='measure' type='quantitative' />
+      <column caption='Cases Declared False on Account of Mistake of Fact or of Law' datatype='integer' name='[Cases_Declared_False_on_Account_of_Mistake_of_Fact_or_of_Law]' role='measure' type='quantitative' />
+      <column caption='Cases Investigated Chargesheets+FR Submitted' datatype='integer' name='[Cases_Investigated_Chargesheets+FR_Submitted]' role='measure' type='quantitative' />
+      <column caption='Cases Pending Investigation at Year End' datatype='integer' name='[Cases_Pending_Investigation_at_Year_End]' role='measure' type='quantitative' />
+      <column caption='Cases Pending Investigation from previous year' datatype='integer' name='[Cases_Pending_Investigation_from_previous_year]' role='dimension' type='quantitative' />
+      <column caption='Cases Pending Trial at Year End' datatype='integer' name='[Cases_Pending_Trial_at_Year_End]' role='measure' type='quantitative' />
+      <column caption='Cases Pending Trial from the previous year' datatype='integer' name='[Cases_Pending_Trial_from_the_previous_year]' role='dimension' type='quantitative' />
+      <column caption='Cases Reported' datatype='integer' name='[Cases_Reported]' role='measure' type='quantitative' />
+      <column caption='Cases Sent for Trial' datatype='integer' name='[Cases_Sent_for_Trial]' role='measure' type='quantitative' />
+      <column caption='Cases Trials Completed' datatype='integer' name='[Cases_Trials_Completed]' role='measure' type='quantitative' />
+      <column caption='Cases Withdrawn by the Govt' datatype='integer' name='[Cases_Withdrawn_by_the_Govt]' role='measure' type='quantitative' />
+      <column caption='Cases charge sheets were not laid but Final Report submitted' datatype='integer' name='[Cases_charge_sheets_were_not_laid_but_Final_Report_submitted]' role='measure' type='quantitative' />
+      <column caption='Cases not Investigated or in which investigation was refused' datatype='integer' name='[Cases_not_Investigated_or_in_which_investigation_was_refused]' role='measure' type='quantitative' />
+      <column caption='Cases withdrawn by the Govt during investigation' datatype='integer' name='[Cases_withdrawn_by_the_Govt_during_investigation]' role='measure' type='quantitative' />
+      <column caption='Group Name' datatype='string' name='[Group_Name]' role='dimension' type='nominal' />
+      <column caption='Sub Group Name' datatype='string' name='[Sub_Group_Name]' role='dimension' type='nominal' />
+      <column caption='Total Cases for Trial' datatype='integer' name='[Total_Cases_for_Trial]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='42_Cases_under_crime_against_women.csv' datatype='table' name='[__tableau_internal_object_id__].[42_Cases_under_crime_against_women.csv_BC499B4152D348458D546E743D654DE0]' role='measure' type='quantitative' />
+      <column-instance column='[Sub_Group_Name]' derivation='None' name='[none:Sub_Group_Name:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Cases_Pending_Trial_at_Year_End]' derivation='Sum' name='[sum:Cases_Pending_Trial_at_Year_End:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Cases_Sent_for_Trial]' derivation='Sum' name='[sum:Cases_Sent_for_Trial:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='false' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0xsj9gv0f3ukqm1ehfft60mxf508].[sum:Cases_Pending_Trial_at_Year_End:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0xsj9gv0f3ukqm1ehfft60mxf508]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0xsj9gv0f3ukqm1ehfft60mxf508].[sum:Cases_Sent_for_Trial:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Sub_Group_Name:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;09. Dowry Prohibition Act&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;01. Rape&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;05. Sexual Harassment&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;10. Indecent Representation of Women(Prohibition) Act&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;06. Cruelty by Husband and Relatives&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;02. Kidnapping &amp; Abduction of Women &amp; Girls&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;07. Importation of Girls&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;11. Sati Prevention Act&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;08. Immoral Traffic Prevention Act&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;03. Dowry Deaths&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;12. Total Crimes Against Women&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;04. Molestation&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='42_Cases_under_crime_against_women.csv' id='42_Cases_under_crime_against_women.csv_BC499B4152D348458D546E743D654DE0'>
+            <properties context=''>
+              <relation connection='textscan.14hilt50r7q35m132zkce0icgci8' name='42_Cases_under_crime_against_women.csv' table='[42_Cases_under_crime_against_women#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                  <column datatype='string' name='Area_Name' ordinal='0' />
+                  <column datatype='integer' name='Year' ordinal='1' />
+                  <column datatype='string' name='Group_Name' ordinal='2' />
+                  <column datatype='string' name='Sub_Group_Name' ordinal='3' />
+                  <column datatype='integer' name='Cases_Acquitted_or_Discharged' ordinal='4' />
+                  <column datatype='integer' name='Cases_charge_sheets_were_not_laid_but_Final_Report_submitted' ordinal='5' />
+                  <column datatype='integer' name='Cases_Chargesheeted' ordinal='6' />
+                  <column datatype='integer' name='Cases_Compounded_or_Withdrawn' ordinal='7' />
+                  <column datatype='integer' name='Cases_Convicted' ordinal='8' />
+                  <column datatype='integer' name='Cases_Declared_False_on_Account_of_Mistake_of_Fact_or_of_Law' ordinal='9' />
+                  <column datatype='integer' name='Cases_Investigated_Chargesheets+FR_Submitted' ordinal='10' />
+                  <column datatype='integer' name='Cases_not_Investigated_or_in_which_investigation_was_refused' ordinal='11' />
+                  <column datatype='integer' name='Cases_Pending_Investigation_at_Year_End' ordinal='12' />
+                  <column datatype='integer' name='Cases_Pending_Investigation_from_previous_year' ordinal='13' />
+                  <column datatype='integer' name='Cases_Pending_Trial_at_Year_End' ordinal='14' />
+                  <column datatype='integer' name='Cases_Pending_Trial_from_the_previous_year' ordinal='15' />
+                  <column datatype='integer' name='Cases_Reported' ordinal='16' />
+                  <column datatype='integer' name='Cases_Sent_for_Trial' ordinal='17' />
+                  <column datatype='integer' name='Cases_Trials_Completed' ordinal='18' />
+                  <column datatype='integer' name='Cases_Withdrawn_by_the_Govt' ordinal='19' />
+                  <column datatype='integer' name='Cases_withdrawn_by_the_Govt_during_investigation' ordinal='20' />
+                  <column datatype='integer' name='Total_Cases_for_Trial' ordinal='21' />
+                  <column datatype='string' name='F23' ordinal='22' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Each segments total cases  against womens 
+</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='33_CH_not_murder_victim_age_sex' name='federated.0xsj9gv0f3ukqm1ehfft60mxf508' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0xsj9gv0f3ukqm1ehfft60mxf508'>
+            <column caption='Sub Group Name' datatype='string' name='[Sub_Group_Name]' role='dimension' type='nominal' />
+            <column caption='Total Cases for Trial' datatype='integer' name='[Total_Cases_for_Trial]' role='measure' type='quantitative' />
+            <column-instance column='[Sub_Group_Name]' derivation='None' name='[none:Sub_Group_Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Total_Cases_for_Trial]' derivation='Sum' name='[pcto:sum:Total_Cases_for_Trial:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[Total_Cases_for_Trial]' derivation='Sum' name='[sum:Total_Cases_for_Trial:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0xsj9gv0f3ukqm1ehfft60mxf508].[none:Sub_Group_Name:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Sub_Group_Name:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:Sub_Group_Name:nk]' member='&quot;12. Total Crimes Against Women&quot;' />
+                <groupfilter function='member' level='[none:Sub_Group_Name:nk]' member='%null%' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0xsj9gv0f3ukqm1ehfft60mxf508].[none:Sub_Group_Name:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='color' value='#000000' />
+            <format attr='border-style' scope='cols' value='solid' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.0xsj9gv0f3ukqm1ehfft60mxf508].[sum:Total_Cases_for_Trial:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+            <encoding attr='size-bar' field='[federated.0xsj9gv0f3ukqm1ehfft60mxf508].[pcto:sum:Total_Cases_for_Trial:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <size column='[federated.0xsj9gv0f3ukqm1ehfft60mxf508].[pcto:sum:Total_Cases_for_Trial:qk]' />
+              <tooltip column='[federated.0xsj9gv0f3ukqm1ehfft60mxf508].[sum:Total_Cases_for_Trial:qk]' />
+              <text column='[federated.0xsj9gv0f3ukqm1ehfft60mxf508].[none:Sub_Group_Name:nk]' />
+              <text column='[federated.0xsj9gv0f3ukqm1ehfft60mxf508].[pcto:sum:Total_Cases_for_Trial:qk]' />
+              <color column='[federated.0xsj9gv0f3ukqm1ehfft60mxf508].[none:Sub_Group_Name:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Sub Group Name:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0xsj9gv0f3ukqm1ehfft60mxf508].[none:Sub_Group_Name:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Total Cases for Trial:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0xsj9gv0f3ukqm1ehfft60mxf508].[sum:Total_Cases_for_Trial:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+                <format attr='text-orientation' value='0' />
+                <format attr='vertical-align' value='auto' />
+                <format attr='wrap' value='auto' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+                <format attr='size' value='1.6591712236404419' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+        <mark-labels>
+          <mark-label id='0' label-state='off'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0xsj9gv0f3ukqm1ehfft60mxf508].[none:Sub_Group_Name:nk]</field>
+                  <field>[federated.0xsj9gv0f3ukqm1ehfft60mxf508].[sum:Total_Cases_for_Trial:qk]</field>
+                  <field>[federated.0xsj9gv0f3ukqm1ehfft60mxf508].[pcto:sum:Total_Cases_for_Trial:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;10. Indecent Representation of Women(Prohibition) Act&quot;</value>
+                <value>0</value>
+                <value>0.0</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='1' label-state='off'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0xsj9gv0f3ukqm1ehfft60mxf508].[none:Sub_Group_Name:nk]</field>
+                  <field>[federated.0xsj9gv0f3ukqm1ehfft60mxf508].[sum:Total_Cases_for_Trial:qk]</field>
+                  <field>[federated.0xsj9gv0f3ukqm1ehfft60mxf508].[pcto:sum:Total_Cases_for_Trial:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;09. Dowry Prohibition Act&quot;</value>
+                <value>0</value>
+                <value>0.0</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='2' label-state='off'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0xsj9gv0f3ukqm1ehfft60mxf508].[none:Sub_Group_Name:nk]</field>
+                  <field>[federated.0xsj9gv0f3ukqm1ehfft60mxf508].[sum:Total_Cases_for_Trial:qk]</field>
+                  <field>[federated.0xsj9gv0f3ukqm1ehfft60mxf508].[pcto:sum:Total_Cases_for_Trial:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;11. Sati Prevention Act&quot;</value>
+                <value>0</value>
+                <value>0.0</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+        </mark-labels>
+      </table>
+      <simple-id uuid='{E1F32D65-2470-4D9C-B275-3E6BEB0FCA50}' />
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Ratio of cases completed in a year against total cases
+</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='33_CH_not_murder_victim_age_sex' name='federated.0xsj9gv0f3ukqm1ehfft60mxf508' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0xsj9gv0f3ukqm1ehfft60mxf508'>
+            <column caption='ratio' datatype='real' name='[Calculation_2315976153957904387]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Cases_Trials_Completed]) /SUM( [Cases_Sent_for_Trial])' />
+            </column>
+            <column caption='Cases Pending Trial at Year End' datatype='integer' name='[Cases_Pending_Trial_at_Year_End]' role='measure' type='quantitative' />
+            <column caption='Cases Sent for Trial' datatype='integer' name='[Cases_Sent_for_Trial]' role='measure' type='quantitative' />
+            <column caption='Cases Trials Completed' datatype='integer' name='[Cases_Trials_Completed]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Cases_Pending_Trial_at_Year_End]' derivation='Sum' name='[sum:Cases_Pending_Trial_at_Year_End:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Cases_Sent_for_Trial]' derivation='Sum' name='[sum:Cases_Sent_for_Trial:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Cases_Trials_Completed]' derivation='Sum' name='[sum:Cases_Trials_Completed:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_2315976153957904387]' derivation='User' name='[usr:Calculation_2315976153957904387:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <tooltip column='[federated.0xsj9gv0f3ukqm1ehfft60mxf508].[sum:Cases_Sent_for_Trial:qk]' />
+              <tooltip column='[federated.0xsj9gv0f3ukqm1ehfft60mxf508].[sum:Cases_Trials_Completed:qk]' />
+              <tooltip column='[federated.0xsj9gv0f3ukqm1ehfft60mxf508].[sum:Cases_Pending_Trial_at_Year_End:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0xsj9gv0f3ukqm1ehfft60mxf508].[usr:Calculation_2315976153957904387:qk]</rows>
+        <cols>[federated.0xsj9gv0f3ukqm1ehfft60mxf508].[none:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{C6004EB4-8AF0-43BE-B552-0961E479DEB3}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0xsj9gv0f3ukqm1ehfft60mxf508].[none:Sub_Group_Name:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.0xsj9gv0f3ukqm1ehfft60mxf508].[pcto:sum:Total_Cases_for_Trial:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0xsj9gv0f3ukqm1ehfft60mxf508].[none:Area_Name:nk]</field>
+            <field>[federated.0xsj9gv0f3ukqm1ehfft60mxf508].[none:F23:nk]</field>
+            <field>[federated.0xsj9gv0f3ukqm1ehfft60mxf508].[none:Sub_Group_Name:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{A30D381E-78D1-48BB-B1F9-9CF49B428C26}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0xsj9gv0f3ukqm1ehfft60mxf508].[:Measure Names]</field>
+            <field>[federated.0xsj9gv0f3ukqm1ehfft60mxf508].[none:Sub_Group_Name:nk]</field>
+            <field>[federated.0xsj9gv0f3ukqm1ehfft60mxf508].[none:Year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{39617701-A6A0-43C9-B038-7E4FBF31A58E}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 3' width='192'>
+      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
+      E8kpGJudAAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>

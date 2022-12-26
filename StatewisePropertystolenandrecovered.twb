@@ -1,0 +1,750 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20223.22.1108.0821                               -->
+<workbook original-version='18.1' source-build='2022.3.1 (20223.22.1108.0821)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='10_Property_stolen_and_recovered' inline='true' name='federated.1l418jj1qxyuzw12taxut10ba9ej' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='10_Property_stolen_and_recovered' name='textscan.1ecssih0dluj240zmg20d10ob2od'>
+            <connection class='textscan' directory='C:/Users/aryan/Desktop/archive2' filename='10_Property_stolen_and_recovered.csv' password='' server='' />
+          </named-connection>
+          <named-connection caption='20_Victims_of_rape' name='textscan.0rgbi7u1p878ip0zklinh0lohghh'>
+            <connection class='textscan' directory='C:/Users/aryan/Desktop/archive2' filename='20_Victims_of_rape.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1ecssih0dluj240zmg20d10ob2od' name='10_Property_stolen_and_recovered.csv' table='[10_Property_stolen_and_recovered#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='Area_Name' ordinal='0' />
+            <column datatype='integer' name='Year' ordinal='1' />
+            <column datatype='string' name='Group_Name' ordinal='2' />
+            <column datatype='string' name='Sub_Group_Name' ordinal='3' />
+            <column datatype='integer' name='Cases_Property_Recovered' ordinal='4' />
+            <column datatype='integer' name='Cases_Property_Stolen' ordinal='5' />
+            <column datatype='integer' name='Value_of_Property_Recovered' ordinal='6' />
+            <column datatype='integer' name='Value_of_Property_Stolen' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1ecssih0dluj240zmg20d10ob2od' name='10_Property_stolen_and_recovered.csv' table='[10_Property_stolen_and_recovered#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='Area_Name' ordinal='0' />
+            <column datatype='integer' name='Year' ordinal='1' />
+            <column datatype='string' name='Group_Name' ordinal='2' />
+            <column datatype='string' name='Sub_Group_Name' ordinal='3' />
+            <column datatype='integer' name='Cases_Property_Recovered' ordinal='4' />
+            <column datatype='integer' name='Cases_Property_Stolen' ordinal='5' />
+            <column datatype='integer' name='Value_of_Property_Recovered' ordinal='6' />
+            <column datatype='integer' name='Value_of_Property_Stolen' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[10_Property_stolen_and_recovered.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₹&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Area_Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Area_Name]</local-name>
+            <parent-name>[10_Property_stolen_and_recovered.csv]</parent-name>
+            <remote-alias>Area_Name</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[10_Property_stolen_and_recovered.csv_5128CF14BFA543BFB65B537EC60BE6D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[10_Property_stolen_and_recovered.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[10_Property_stolen_and_recovered.csv_5128CF14BFA543BFB65B537EC60BE6D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Group_Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Group_Name]</local-name>
+            <parent-name>[10_Property_stolen_and_recovered.csv]</parent-name>
+            <remote-alias>Group_Name</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[10_Property_stolen_and_recovered.csv_5128CF14BFA543BFB65B537EC60BE6D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sub_Group_Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Sub_Group_Name]</local-name>
+            <parent-name>[10_Property_stolen_and_recovered.csv]</parent-name>
+            <remote-alias>Sub_Group_Name</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[10_Property_stolen_and_recovered.csv_5128CF14BFA543BFB65B537EC60BE6D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cases_Property_Recovered</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Cases_Property_Recovered]</local-name>
+            <parent-name>[10_Property_stolen_and_recovered.csv]</parent-name>
+            <remote-alias>Cases_Property_Recovered</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[10_Property_stolen_and_recovered.csv_5128CF14BFA543BFB65B537EC60BE6D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cases_Property_Stolen</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Cases_Property_Stolen]</local-name>
+            <parent-name>[10_Property_stolen_and_recovered.csv]</parent-name>
+            <remote-alias>Cases_Property_Stolen</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[10_Property_stolen_and_recovered.csv_5128CF14BFA543BFB65B537EC60BE6D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Value_of_Property_Recovered</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Value_of_Property_Recovered]</local-name>
+            <parent-name>[10_Property_stolen_and_recovered.csv]</parent-name>
+            <remote-alias>Value_of_Property_Recovered</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[10_Property_stolen_and_recovered.csv_5128CF14BFA543BFB65B537EC60BE6D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Value_of_Property_Stolen</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Value_of_Property_Stolen]</local-name>
+            <parent-name>[10_Property_stolen_and_recovered.csv]</parent-name>
+            <remote-alias>Value_of_Property_Stolen</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[10_Property_stolen_and_recovered.csv_5128CF14BFA543BFB65B537EC60BE6D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Area Name' datatype='string' name='[Area_Name]' role='dimension' type='nominal' />
+      <column caption='Zero axis ' datatype='integer' name='[Calculation_193373353145987072]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='0' />
+      </column>
+      <column caption='Cases Property Recovered' datatype='integer' name='[Cases_Property_Recovered]' role='measure' type='quantitative' />
+      <column caption='Cases Property Stolen' datatype='integer' name='[Cases_Property_Stolen]' role='measure' type='quantitative' />
+      <column caption='Group Name' datatype='string' name='[Group_Name]' role='dimension' type='nominal' />
+      <column caption='Sub Group Name' datatype='string' name='[Sub_Group_Name]' role='dimension' type='nominal' />
+      <column aggregation='None' caption='Value of Property Stolen (bin)' datatype='integer' name='[Value of Property Stolen (bin)]' role='dimension' type='ordinal'>
+        <calculation class='bin' decimals='4' formula='[Value_of_Property_Stolen]' peg='0' size='5.85129e+08' />
+      </column>
+      <column caption='Value of Property Recovered' datatype='integer' name='[Value_of_Property_Recovered]' role='measure' type='quantitative' />
+      <column caption='Value of Property Stolen' datatype='integer' name='[Value_of_Property_Stolen]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='10_Property_stolen_and_recovered.csv' datatype='table' name='[__tableau_internal_object_id__].[10_Property_stolen_and_recovered.csv_5128CF14BFA543BFB65B537EC60BE6D8]' role='measure' type='quantitative' />
+      <column-instance column='[Area_Name]' derivation='None' name='[none:Area_Name:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Area_Name:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Daman &amp; Diu&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Rajasthan&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Andaman &amp; Nicobar Islands&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Maharashtra&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Bihar&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Nagaland&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Haryana&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Uttar Pradesh&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Delhi&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Sikkim&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Chandigarh&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Odisha&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Lakshadweep&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Andhra Pradesh&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Manipur&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Karnataka&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Chhattisgarh&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Puducherry&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Himachal Pradesh&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Uttarakhand&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Jammu &amp; Kashmir&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;West Bengal&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Kerala&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Madhya Pradesh&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Goa&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Tamil Nadu&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Dadra &amp; Nagar Haveli&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Punjab&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Arunachal Pradesh&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Meghalaya&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Jharkhand&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Gujarat&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Tripura&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Assam&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Mizoram&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='10_Property_stolen_and_recovered.csv' id='10_Property_stolen_and_recovered.csv_5128CF14BFA543BFB65B537EC60BE6D8'>
+            <properties context=''>
+              <relation connection='textscan.1ecssih0dluj240zmg20d10ob2od' name='10_Property_stolen_and_recovered.csv' table='[10_Property_stolen_and_recovered#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                  <column datatype='string' name='Area_Name' ordinal='0' />
+                  <column datatype='integer' name='Year' ordinal='1' />
+                  <column datatype='string' name='Group_Name' ordinal='2' />
+                  <column datatype='string' name='Sub_Group_Name' ordinal='3' />
+                  <column datatype='integer' name='Cases_Property_Recovered' ordinal='4' />
+                  <column datatype='integer' name='Cases_Property_Stolen' ordinal='5' />
+                  <column datatype='integer' name='Value_of_Property_Recovered' ordinal='6' />
+                  <column datatype='integer' name='Value_of_Property_Stolen' ordinal='7' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#ffffff'>Average value of Property stolen and Recovered in 2010</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='10_Property_stolen_and_recovered' name='federated.1l418jj1qxyuzw12taxut10ba9ej' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1l418jj1qxyuzw12taxut10ba9ej'>
+            <column caption='Area Name' datatype='string' name='[Area_Name]' role='dimension' type='nominal' />
+            <column caption='Zero axis ' datatype='integer' name='[Calculation_193373353145987072]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='0' />
+            </column>
+            <column caption='Value of Property Recovered' datatype='integer' name='[Value_of_Property_Recovered]' role='measure' type='quantitative' />
+            <column caption='Value of Property Stolen' datatype='integer' name='[Value_of_Property_Stolen]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Value_of_Property_Recovered]' derivation='Avg' name='[avg:Value_of_Property_Recovered:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Value_of_Property_Stolen]' derivation='Avg' name='[avg:Value_of_Property_Stolen:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Area_Name]' derivation='None' name='[none:Area_Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_193373353145987072]' derivation='Sum' name='[sum:Calculation_193373353145987072:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Value_of_Property_Stolen]' derivation='Sum' name='[sum:Value_of_Property_Stolen:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1l418jj1qxyuzw12taxut10ba9ej].[none:Year:qk]' included-values='in-range'>
+            <min>2010</min>
+            <max>2010</max>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1l418jj1qxyuzw12taxut10ba9ej].[none:Area_Name:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1l418jj1qxyuzw12taxut10ba9ej].[avg:Value_of_Property_Stolen:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1l418jj1qxyuzw12taxut10ba9ej].[none:Year:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1l418jj1qxyuzw12taxut10ba9ej].[sum:Calculation_193373353145987072:qk]' scope='cols' value='State' />
+            <encoding attr='space' class='0' domain-expand='false' field='[federated.1l418jj1qxyuzw12taxut10ba9ej].[sum:Calculation_193373353145987072:qk]' field-type='quantitative' major-origin='0' major-show='false' major-spacing='1' minor-origin='0' minor-show='false' minor-spacing='1' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1l418jj1qxyuzw12taxut10ba9ej].[avg:Value_of_Property_Stolen:qk]' field-type='quantitative' reverse='true' scope='cols' type='space' />
+            <format attr='tick-color' field='[federated.1l418jj1qxyuzw12taxut10ba9ej].[sum:Calculation_193373353145987072:qk]' value='#ffffff00' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='color' data-class='subtotal' scope='cols' value='#ffffff' />
+            <format attr='font-size' data-class='subtotal' scope='cols' value='9' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='font-family' data-class='subtotal' field='[federated.1l418jj1qxyuzw12taxut10ba9ej].[none:Area_Name:nk]' value='Tableau Bold' />
+            <format attr='background-color' field='[federated.1l418jj1qxyuzw12taxut10ba9ej].[none:Area_Name:nk]' value='#ffffff' />
+            <format attr='background-color' field='[federated.1l418jj1qxyuzw12taxut10ba9ej].[sum:Calculation_193373353145987072:qk]' value='#ffffff' />
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.1l418jj1qxyuzw12taxut10ba9ej].[none:Area_Name:nk]' value='false' />
+            <format attr='wrap' field='[federated.1l418jj1qxyuzw12taxut10ba9ej].[none:Area_Name:nk]' value='auto' />
+            <format attr='text-align' field='[federated.1l418jj1qxyuzw12taxut10ba9ej].[none:Area_Name:nk]' value='auto' />
+            <format attr='vertical-align' field='[federated.1l418jj1qxyuzw12taxut10ba9ej].[none:Area_Name:nk]' value='auto' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1l418jj1qxyuzw12taxut10ba9ej].[sum:Value_of_Property_Stolen:qk]' palette='orange_10_0' type='interpolated' />
+            <encoding attr='color' field='[federated.1l418jj1qxyuzw12taxut10ba9ej].[avg:Value_of_Property_Stolen:qk]' palette='green_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='1' />
+            <format attr='line-visibility' scope='rows' value='on' />
+            <format attr='line-pattern-only' scope='rows' value='solid' />
+            <format attr='stroke-size' scope='cols' value='1' />
+            <format attr='line-visibility' scope='cols' value='on' />
+            <format attr='line-pattern-only' scope='cols' value='solid' />
+            <format attr='div-level' scope='cols' value='0' />
+          </style-rule>
+          <style-rule element='header-div'>
+            <format attr='stroke-size' scope='rows' value='1' />
+            <format attr='line-visibility' scope='rows' value='on' />
+            <format attr='line-pattern-only' scope='rows' value='solid' />
+            <format attr='stroke-size' scope='cols' value='1' />
+            <format attr='line-visibility' scope='cols' value='on' />
+            <format attr='line-pattern-only' scope='cols' value='solid' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='background-color' value='#000000' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-color' value='#ffffff' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1.5932043790817261' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1l418jj1qxyuzw12taxut10ba9ej].[avg:Value_of_Property_Stolen:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1l418jj1qxyuzw12taxut10ba9ej].[sum:Value_of_Property_Stolen:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1.5932043790817261' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1l418jj1qxyuzw12taxut10ba9ej].[sum:Calculation_193373353145987072:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Text' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.1l418jj1qxyuzw12taxut10ba9ej].[none:Area_Name:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1.5932043790817261' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1l418jj1qxyuzw12taxut10ba9ej].[avg:Value_of_Property_Recovered:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1l418jj1qxyuzw12taxut10ba9ej].[avg:Value_of_Property_Stolen:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1.5932043790817261' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1l418jj1qxyuzw12taxut10ba9ej].[none:Area_Name:nk]</rows>
+        <cols>([federated.1l418jj1qxyuzw12taxut10ba9ej].[avg:Value_of_Property_Stolen:qk] + ([federated.1l418jj1qxyuzw12taxut10ba9ej].[sum:Calculation_193373353145987072:qk] + [federated.1l418jj1qxyuzw12taxut10ba9ej].[avg:Value_of_Property_Recovered:qk]))</cols>
+      </table>
+      <simple-id uuid='{047C869D-C4BD-4BF9-920C-4A64E6A29E06}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{56DE90A4-C6FE-4C71-8672-EA0F5B4BC751}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='63'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='3' param='[federated.1l418jj1qxyuzw12taxut10ba9ej].[sum:Value_of_Property_Stolen:qk]' type='color' />
+            <card pane-specification-id='5' param='[federated.1l418jj1qxyuzw12taxut10ba9ej].[avg:Value_of_Property_Stolen:qk]' type='color' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='92'>
+            <card type='caption' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{F4147678-1444-4D1C-9358-BE8866A24DE8}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{D93CD6D9-D784-4A42-B9C3-0658724591E2}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAcB0lEQVR4nO3d2XMc97XY8W93z75iFmCw7wRIgqS4iZIoUqJlyduNXValnNi+ldwklYdb
+      fkgqVak85Mlv+Q9SqVQqyU2qHDt2ypYtW4tFWxT3ncQy2BcCGKyD2feZ7s4DtFEEJEIAMQPM
+      71PFAqYbc3AGnIPf73Q3fi3puq4jCFVKLncCglBOhk8+yWaz5HI5AHRdR5IkALRSkUI6VZ7s
+      hLKRZAWz01XuNJ65Twsgl8vh8XgAKBaLGI1GABbv3+Ddf/u35clOKJuajh7e/Id3yp3Gtv31
+      d7+k+ezfcKDOybV3fom977s81+r+dL/hS54rCHue4vIQGhuh23eIbKZAMVNkbOAOj0IrNPSc
+      ED2AsM/JVkxSjsn+AdqPHgPAbLagSBpj07NfPQIYrTY8nb1f63t/vpfYrp2KVZE5oYNORb0+
+      Z1PbtmNUioPNNfzu9gL/7LyT+bUS94dH6e1sJRnRkT45DBqNRjfsAbZjp+LsZKxy5qSujIKm
+      PrFd1zV0HWR5+wOyqpZQlO3PbCWDGdnfte045ZbJZLBaTSQSOVx2I1nNQD4SIq6asZiMogfY
+      Tblf/z3k4s/8+xR3IIbk68L2L369A5F2T2Q+yG8vz/CvfvI9wjPDvHVznH/9T38AgNvtAMAG
+      JBMLZOw9zIxMiQIQ9g9V1fGYdZYTBeYWwgT8LrLxVW7c7SecKvHD10/yx/euIxXCHDjXw8LM
+      iCgAYX9p62jj0XiQomTHZkxRKhbRkVhYXiY0NMixb/4j7Eu3WAMa2w+KAthNSvtZKKaf2L7e
+      he1QQ63pSPL240jOhm3HKAezO8Di7T9y6PwPmZnoJzQ7TV4Fs8lIbVsrf/zgXZx6mLYXewBE
+      E1wJsTRNQ9d1FEX5yq9VV/rRc7HN96sairL9Zloy2lEaTm07zm765LK2T46ErX9c/5lIkows
+      S2iaCkjIsoyu62IE2GuKA/8bbaX/S7/myeNMWye527A2/NcdiLR7PhlBP/9xOXiDRUcvdfFx
+      PlzI8+PXTnPt7iAvnzlJqaSKAhD2t8CBXgavTZMzq7Q6ZNJr01g9rVy/9BcKmi7OBAv7nNGD
+      osXRdGi2KVwdCtPd5mR8dh4VSYwAe43Scg65pmPT/ZqmI+9EE2z1bjtGpXAaUxRtnTR3G3nv
+      N7f4jtlCT2sjaU0RTXAlxNpKE/zEc1cH0aLjnz1WNeQdaIIxuTC0f3P7cSqcGAH2OHXpLurY
+      bx/bpu1AXMnVWhUFIHoAoaqJAhCqmpgC7XFKw/NIFs+njzVVRf4avcQXSSbntmPsBaIA9jjZ
+      fxjZf/jTx8WZv6LHp7cfeIPLtvebQjomCmDfCQ+hha5uO4zkbIbeN3cgocp16+ZN0QMI1Uqn
+      JCuiAIRqJeEyiIvh9p+Ob2NoemHbYSSDdQeSqWwnzr4mCmDfcbWjfO7stLb8AG3u0tbjWH1Q
+      e2QHE6s8kqyIAtjv9GwYfXVg689zNLL9g6mVT/QAQlUTBSBUNTEF2ufkxheQvT1f44k7c8Vs
+      pRMFsM9JJieYnJTu/xf01NLTP89eh+Hkz55hZrtPTc3z4JFCky1CWPdypLNBFEC10DNhSD99
+      AejS/psd61qBkYEgq7V+vvXaQQbuXBc9gFBNJJxOFyW1BLqOjpgCCVXGU99OhyPMjXtBlh6F
+      xJ9EVkKs7fxJ5NPmpJdyoG/hb8UkGclg2XY+lUTXNVQVkvEoRouBbEYsi1I1vvhm1iNjaP3/
+      ffMn2AMoz/+7Z5zVs9F/5U+Mpmr40XfOPrZdkmQMBhgdGKKrr5n5RbE6dPXSddC+ZB1prbR7
+      uewgXSuykrdRqyTIlHT+8rtfYfPWkpNtnGiycWt8ibWlNbr6Ghm6Ly6HFvaZ5NIE49NzzM1M
+      MPwojMvfyIXXvolZLjIcivCD732bw53NgEzfiRfECFC1ZBm+7IpPxbx7ueyg2dAa/+SnP8Vj
+      SHHx6jB24/pb3Ggw0OF18Pa775MIJ+g+0oqiyKIJroRYu9EEb0QvJGGz26TLMpLRvu18ykZT
+      yZc0zCYjhUIBo9HERotvixGgimnX/xOohY132utRXvj3u5vQTkov8f6DMN8//xy3r1/jyKFm
+      7o5nOX20jbt3b9N39ARet130AEJ1yKaihELLZDIZQqF5orEk6XhEFICwTxlNmD+e3qmqTm19
+      gJbWLurr62lpaaa3u43w8oKYAlU1RyOomxwKtfp2N5edZvHh1h/wwQd/xlXXhmytJb3wDlMh
+      Jz6biUvX71NrKYgmuBJila0Jzoah8OQtmwBQjEiOxm3nU1F0nbnpceKZEq2dXbhsZjECVDN9
+      5gNYurvxTnsA6cweboI3pBMcneL4iaNcuvQR33v9vOgBhOqSTkSYnpnFYLahloqiAITq4vIF
+      IBujqbWd8PykmAJVM8nZjF7Kb7zTUrO7yeyS+oZG+g73cv/mNfJ1flEAVa32KJLRsfG+fXYp
+      dP/tK6zEc8iKgfYDhzj54jlAnAmubskQevAXG++zB5B8B3c3n2fo2PPn+Oiji7zyygXy6RhX
+      bzygrv2Q6AGEaqTQe+QYwXu3xAggVJ/RgXvEdQvRWFoUQFWzeqHl/Ia79uMdYpqaWtc/Njex
+      Mhaiq6dbFEA1k+z1UNMJ6ZUndxpsu5/QM9bVdQAAX3M3hzQTgdZWUQDVTl95CCsPn9xhDyA1
+      ntn9hHbJ7NQM/tZW0QQL1amQjvDhxYtiBBCqk8nu5cULr4gCqHZS/SlwtT25w7j/eoDPa+/u
+      woA4ESZ4etBXh57YLJldZUhm9zQ0NwGiAASAxVtPbNLtAaT213c/l10mmmChiumiAIRqJokp
+      kADSkb97cqNhby6MtVWiAKqcJEnoqQX0xKPHd1hqkGo6y5PULhIFIKCnFyA6/vhGW6A8yewy
+      0QMIVU0UgFDVxBRIQOr6PrS/8fhGuTreGtXxKoUvJX38B/B6MQMP/9v6RqsP+v62jFntDlEA
+      wmd0DXKR9c+rZAQQPYBQ1UQBCFWtOsY54ekY7fDSf/z4wQa3U9njVtfWqPWtr3qdT8fJyzZR
+      AMJnJEmC4C8gOQe2Wjj+9+VOadvGHlxncjmFr76FZHyF186vLwKQWJ5i0dApCkD4Al377N+e
+      pxOKZfjOt99AAj54b4xLlz5kNVHgwmEvD25fEz2AsL9pmrZ+T2RAstZw4cI3qK0xg2zg+JmX
+      xQggfIHBsr4kypfdQnXPkGjzu3jvzxfxBZoxfXzjEKPRiKQYMMiSuENMJcQq1x1iNg6QBk0F
+      SQbTJgvn7mFaqYCKzPJymOamejECCF8w/KvPmuATPyt3NjsuNnOfeXMv4YkJDLI4DCpUqfBS
+      iHCNUTTBQnUpFIoYjQp1Te0cOdgjRgDhC2y1oKtg8ZQ7kx338NZl5iMFXu8xk1m0g6yIJrgS
+      YlVUE5xPQD4GshEcDdvOp9KJKZDwuHAQBv4HjP+23JnsClEAQlUTBSBUNdEEC4/zdq+fANtn
+      d4ncjBgBhMcZrBAeguhEuTN5JgrJBX7zh0voOty/e0+MAMIXaCWIjK4fDt2HtGIGPRNjZD7C
+      yvKyGAGE6tPce5zlyUE0XUyBhCokyQb62n0MTi6KE2GVEKuiToRpJUgvr68KYd9/yyNqpRyZ
+      gozdqhAKiSmQ8EWyATKrMH+53Jk8E7LBgsNmQpIUmpsbRQEIGyimIbNW7ix2hSgAoaqJAhCq
+      mjgPIDyp4XkInCx3FrtCjADCk5bvw/Avy53Fll25dmXLzxEjgPAkrQRqodxZbFmpVCKbWOXG
+      7X4iiSyvv9TL76+MIKXXCLS0E0/leKndyLWQgeTyNJ1tTWIEEPYLHdAp5LKUdJ1McoVcQaP7
+      yCmOHDjA6XPnqKsxggQnXniVts5OLnzjghgBhA1Iyp5aHr2YXOWvN+5hcgSILIfIlSTMZjOS
+      JCPLErKsIMH6RxkkCRRZBsS6QBURq6LOBMP6sohqcc/cKlVTSxRKOhbz1l+3mAIJT8rFYOB/
+      ljuLpzZx9xK/ePuv6EChUCCbSZPPFyipGqViEVXTyGXSRKNRVF2nkMsQiUQpqZqYAgl7m65r
+      PErAc36dlbTK4MXfU3TU0+GxotR3Ic+NYTzYzUe/eZuDfU0Uzb00uVKsrIaJ6y4xAgh7WzG1
+      zPjYFAsrS9x9OIrJ7uHChZdxmB//3d7S2cvxU0coxRMsLS4SSySJRqNiBBA2ICtg3RvrAi0+
+      mufNf/4vqbdpXL56B4fLjSJL1NR5uHPtGnoqzZm+Xmx2K2DAZjORjGaQjRZcFodogishVsU1
+      wVppvQ+w+bedz67QNZLpLE6HnUwyjtHmIJVI4fG4v/KpYgokPCmfgNH/V+4snp5W5O69AQCG
+      731EJAe5bI5sOsX87DTzS6tMj48QTeXIJqMEh4IkMgV0rSSmQML+sDQzysVimtnJRzSfVhkf
+      myDg0IiaAoSG3ufkuQvcvHWTF44exONxcvXKdZpc4lIIYZ+ob+/lwisvcteQ+WyjYqG1tQU1
+      ukBLUxNT0xNMjg2RyGlE4zlsJocoAGEDihHcreXO4ulJMj7v+t3u3d4AZkXG6/NitylYjDIe
+      rw9JAr/Xh5yLIRVK1NX5ea63XjTBlRCr4ppggNQCOBq3H6fMoqsrWD1+LAaN8GoCf633sf1i
+      BBA2tngLDvyw3Fls23hwgNbT56g3qAwNDjM7cp+6w8dodpm4fG9YFICwv33+dt+SZKTn0DGO
+      vfoKcmKVJDZxGFTY31x2C9lskWI6gmZyIesaJU1HkiRKJU0UgLAJd0e5M9gR3UePMz94i49u
+      TXH6dA8H+zq48eFliiY3hlxETIGETRjt5c5gRyhmO+cvvIaulRi4d5OkauVMXyNzkTwvnn9N
+      FICwifAgeLrLncWOCd69hrXpKL01ZlKrYwwM32Nl2iqmQEJ1WMsU6WqowWyzoaDjb+yg0ZYV
+      BSBUB69FZmopQT6TQZVkXE4nBoNBFICwCX9fuTPYUX2nXyY1H+TOwBiWmkaavFY89e2iBxA2
+      UcyWO4MdJSkmjj//0qeP5+5eJ17XJUYAYRPxqXJn8ExF42lmH02JAhCqlGzCZ1ZFAQjVq72j
+      VfQAwibqz5Q7g2eqp+8Qbp9XjADCZrRyJ7Cz8qv8r1++gw4UM1H+9JerKJIiRgBhE4VUuTPY
+      WWoWPRljNl5Emx6hZHVQzCZEAQjVo7XvKHND/eiaSmuNiYWJB2IKJFQPyWBHzYSwOOoAcNT4
+      xQggbMLdXu4MdpalnlN9OnLJjWStoZRvwOVwiBFA2ERqsdwZ7CzZhNNuxu72oidm+L9vXUKX
+      JFEAwibUfLkzeGY0tYTLUCIUK4gCEKpTS1c3c+NDogCE6mS0+0iExKoQwmY8B8qdwTPjqO3i
+      uF9C7/7HYgQQNhGbLHcGz4wkKxgUmbnJYVEAwib0fXYpxAY6Dx0XBSBUN1EAwsak6nhrVMer
+      FLbO21PuDHZUJpUgGo1RKKqPbRcFIFSFi++9y9TUJO9evEQxl0cDCrm8KAChOpisdgKBOhQZ
+      gldvkgAGr94UBSBUB7VYIJXO8sr5c4AO+vp2cSJMqAp1Ta309vYgAXUtbi6/f5FiNCXuEFMJ
+      sSryDjEVLJNYY3puCV+gmXr/xrdCnZ2YorG7c9Pf8JpaYHpSLIsi7EHjg0EMDjfzwzcZnA6T
+      iq7SPzBIKldEV4tMjAxx/36QbDZFPBZhYXmN5flpBofHUT+e+sz03yCqmUUBCHuQpFAbCHDq
+      5ddYnR2iUFIJ+J1cvXKH/ptXKZjd2M1GorMj/O6D69jsNjTZgNsQ48b9WQC8gQCDt26IHkDY
+      u0rZCLrBwcjgQ7K6RDyhYFZkzrU3k5yaAhSef+ksNVaNax/cx2QvIZmcAPSPzvGtV0+KAhD2
+      HrfLws3LlzAazLx8/mVGbl8mX9AIBGo43GLjz+9/gKQpdDrcyFYTyEYsZgXFZMXtdwDQEvAy
+      ODYnmuBKiCWa4GdIzXL18g0ku48zp45ikKXHdoseQNjfCjGKlmaOdfn50/uXKOVTXL/yEcNT
+      IYq5lCgAoTo4vI04rRq6DgcOH+PR/TtEEquiBxCqg1rMk8+rzA73M5OWCIcTlBCrQgj7ncFO
+      JjzB5as3OXnmZWobm9DyOVoPdOGwukQTXAmxRBNcPmIEEKqaKAChqokCEKqaKAChqokCECpS
+      LDTCh7dHNt3/8MZNUur2lm5JRRbEeQChEukMjs6TLagU9IOM3r3GWiqPzdvAyQMNfHT1FjPT
+      i3ScPsq1v9wgpcmcP/8i169cplQsYrI6KWrw6tmT3L51h2RO4huvnePaB79Hl610PXeWtjon
+      sZV5MQIIlUcrZshh4VCjndHZGPFkgZdeeZVkdJnB/occOfMKx3o7kCQzPr+L1NIo08spVIuH
+      Ewc78NZ3U++ERNGIz+0gPjPMfKIEJjvnzp0mNDW9/o1ksxgBhMoTnhlkOZaCYonkYpA6s4ws
+      yyBJmA0SsWSKtUiE1Ow9pnM+Opvr0HUdWZaRJAlFkdElifDEA5bx0tFciw4oyvr+T0zMLosT
+      YZUQS5wIe1w0HMbp92NAZ3l5BYOi4PH7WQuHqfXW8PDeHUyuerq7Wxi6cxOHv566+ibyuSxu
+      i0JOM0EphdnuZPjBXew1ARrb28nG1/B63ESiaXx+D/lURBRAJcQSBfBszE+OYa1vw2c3P7b9
+      xocfcfzCK1gQq0II+1g6EUf2rR8pmhl5yOTcEt6WgwAUs3GCYyHRBAvVwWqzI8sKo+NjlLJR
+      fv/2X+ju7REFIOxjeonFhXlW1mLcvPuAtrYWjIqMwerhxRPdBEcnP+sB1tbW1jttQFXVHZmP
+      7lScnYxViTnpuv7pUYxKyWk/yKfjzIaWsTi91Fh01lIlfB4XMjpWh51kLL5xE1wqlTAYtt8e
+      7FScnYxViTntZBO8k6+vGmz4k9qJ30Q7GWcnY1ViTpIkPXZ8ejt28vVVA1EAFRBrp978IApg
+      qx77aWUTEYLBICNjE2QyKUaHg0zPLaLp+paCZhIRxiZmUHWVydEgY5MzlLStxQDIpaIEg0FC
+      yxFi4UWCw8OE4+ktx4H1efbCwgKaWmRiJMjE1Czq18gpk4gwMjJGOlckshwiODxMNJn9Wjll
+      k1FGxycpqBoLjyYZHhkjky99rViJSIS8qpFPxwgGg8wthZ/qecVskvHJR2i6ztLcNMMjo6Sy
+      ha+Vw170WAGY7S46OjrIJqKkozHMnlr06AJLiS3cNbyUITg+T4Pfg6rlyRYM+O0aIxMLW05u
+      aXaOutYOar0uwssRmtvbmBoe/HR9xy3FmhnhwegUaiFDSbLiNGSZmHu6N8nnFVVobg4wNDTE
+      6mqUtvY2RoYGtp6QrhGJpQh4rIxMTBNN5Glr8jE0OLrlULlUlAc37xIvlIjOLuLt6CD+aJzY
+      U9RS/9AIPofE8OQckViGtuYAwcHhrb+ePeqxApAVA1IphcXTiElWmZkYZTqcwm19+jOLhcQK
+      q4k0QwP3WI0XWJqbZmh0Bm+td8vJ2d0uZkYGGRiZopBNMDw4SMlg2/KxWzUXJ5y30OixATqh
+      R5OMTC3g9bi2nJPFrDB47y52T4B8Os7Q4ACy2bHlOEgy9QEvU9MhWpoaiIcX6R8Ywu7Z+s/J
+      4vDQ1d708aMi48EhlrI6jqfoqc1WC57aRvRiimR0hcHBQSxuz5Zz2Ksefy/pOo9mQrS1NQIK
+      3QeP0NdSw2ry6UcAo9OLy2bjYEcDqWyR5o4eThw7zNrK0tazM1jo6ztEMZ/CbKvh2ImTmMlS
+      2uIIkM8VKGaiTE1NsxJN09p1kOOHOlldW9tyStm8yskXz5IIh7A4PRw/cRKKqS3H0XWN/v5h
+      Dj13ArfNhKeumVOnTpOJLW89lqahqSqaqgJGDj93nC6vzFruq5+by+RIxVZAsePy1XPi5Cny
+      ya2PjHvV44dBa9zEE2ncbifFXIrRsUlMDg/dHS3IW2jUEmtLLMaL9HQ0MDo4hGqw0tNzAKOy
+      tWYvn44xMb1A+4ED5GPLzC1FCDS3U+/b+m9ugHg8htNhYzQ4jG5y0HOg84ml8r4yxtoSswth
+      2rp6KMQWCa3GaWztpNaztVFA1zUmR4Ok8yqBlnYK0SVimRId3QdwWk1bipWKrTL5aAFkM91t
+      tUxMz+P0Buhsqf/K5xYycSbmwhzs6WTx0QThRJ72rgO4v3D9zH614XkAQagW4piZUNVEAQhV
+      TRSAUNUqrAB0wkshMnn1K78yFY9QUEHNZ4inPjvcUcylnvpEjq6WmJubo1DSyCQiTExOEk1m
+      vnb2T34DnfByiLmFlQ1PJhZzaZKZL881Go0SCoUIhULEYrGdy00AQPn5z3/+c4BcLofVai1r
+      Mrpa4Ff/8J9ZLfoIuBQUs5VYJIKCyszsPLJixmJZP0Iyd//PDKW85CY+Yl73o8eXSBV0knP3
+      eLgg4bbKSKUsBUxEl+dI5HScdiu6VmJ2egqMNqbuvMvbd+Y4fqSXhx+8TdTq4drFizQ3N5HP
+      JkAxMzczhcHqJB0Ls7SygtHqoJiOMbu4htthJhJPEF1d4Re//BWBpmZKRRWjVCKV18ivTfDe
+      1XFqXGaK4Sl+c/EBnR1txFbmSRUkso/uc2sR6ix5ltaS2MwSKyth1uJp3E4HkgRjY2NMTEyw
+      vLyMJEnU1dWV9f9ov6moywaTC0G8h75FeG6IR9IMav0Rhh8OYClFOXT4AO8El/jJ918GoOPk
+      Wa7/7iZrWorvnHFy78oDbt8f4bvfPArFGH94Z5AzLSVWlGYePAxSSiX52X/4N0xceZeoo4u5
+      a29xrMVCc0cXZoMM6KSSSZAVLv7+1zhbOlHSKeoO9nH1rT9iTC7z3DfO8dYf3iG/+gizCZYP
+      n+DPlx/wg795g3y+gM2k8PYf3+FYix1zzwW6XbVIuXusxvzU+WUKmkJq9j7XZoGVDznS10kp
+      F+cX/+dtTLJE15Ee5ldNkJzG++O/w2VRiEajLCws8Prrr9PW1lbW/5/9qKKmQLdvD0Epxtpi
+      iNreY9x6/y1aew6TzKrUe12ous783CyaDpLJh0kLo5oclFYmmE+bqXWYKWqAJKFrGtlslnwm
+      gdXbxI9/9EMUIJ1MUVvfCMUcFocDj9eHQZEBGX99Iz/9yY8wGMy8+vq30AsZ6hsbKeYzyIqZ
+      ujofaiFLuqhw4btvcrDRTUvPMU729eCw2/F4/RzwKdyYL9Hb4ESXjHz7+2+SnupnTTNgdziR
+      imkcngB2RSVfAq1UoCTZ+M4P3qTJY8FXW4/DbOCTy5QsFgtvvPGGePM/IxU1BVIVC2dfOEN3
+      ax1GZwN2k0Lf0SP4bDAUHKZkDeBQ8tTW1SPLEk6rgUD7IeoCAVJri7R099Lc3IzH20CNMYNq
+      9XPw2PN49AjhrE5LY4DGtg6mh+5x8PRZAl4PTncNLpsJo8VKfVMzTosJi82Gz+ejs7OdoXv3
+      OfnSK8wM3iFaMvLqq6/R2+plbHqRxtY2fF4P/hoHfqeJ+WiBVr/CWtFHX1cDulZk4P49HM09
+      HDl0GC0+h6vzFHJ0Elf7MXpaArj9DXTX23m0FKO1rQOPx0NdrRevz4dBlvD7/bjdbnGV5zOy
+      J06EhaaGmQjFOH3meezm8szaZsYnaDrQzZdeFaWp9PcP0HPkGBaDeMPuBXuiAAThWfn/JDTd
+      jLfQMgUAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
